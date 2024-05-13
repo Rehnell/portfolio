@@ -1,0 +1,322 @@
+/* Google Fonts Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Newsreader:wght@200&display=swap');
+
+/* Root */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none;
+    font-family: 'poppins', sans-serif;
+}
+
+/* Body of Page Style */
+
+
+body {
+    background: white;
+    font-family: 'Poppins';
+}
+
+/* Navbar */
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    background-color: white;
+    border-bottom: 0.2rem;
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+    list-style: none;
+    z-index: 300;
+}
+
+/* Logo */
+
+#logo {
+    margin-right: auto;
+    padding-left: 2vw;
+    font-family: 'poppins';
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+/* LinkedIn Icon */
+
+.bx bxl-linkedin-square bx-lg a::before {
+    cursor: pointer;
+    color: rgb(9, 106, 167);
+}
+
+.bx bxl-linkedin-square bx-lg a::after {
+    color: rgb(9, 106, 167);
+}
+
+.bx bxl-linkedin-square bx-lg a:visited {
+    color: rgb(9, 106, 167);
+}
+
+.bx bxl-linkedin-square bx-lg a:hover {
+    color: rgb(243, 243, 243);
+}
+
+/* Navbar Project Page Link */
+
+.items {
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 2vw;
+    margin-left: 2vw;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+    transition: 0.6s;
+}
+
+.items a {
+    color: black;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.items a:hover {
+    color: rgb(200, 200, 200);
+    transition: 1.5s ease;
+    text-decoration: none;
+    padding: 2rem;
+    font-family: 'poppins';
+    font-weight: bold;
+    align-items: center;
+    transition: 0.6s;
+}
+
+
+.box-two {
+    position: relative;
+    background-color: transparent;
+    height: 80vh;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+/* Rehnell Portfolio Heading */
+
+h1 {
+    position: absolute;
+    font-family: 'poppins';
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    padding-top: 40vh;
+    padding-left: 10vw;
+    align-items: center;
+    text-align: center;
+    z-index: 201;
+}
+
+/* Sun Image */
+
+.circle {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin: -75px;
+    background: red;
+    top: 35%;
+    left: 50%;
+    border-radius: 50%;
+    
+}
+  
+#sun {
+    background: #ffffe2;
+    box-shadow: 0 0 51700px #ffea00;
+    fill-opacity: 1;
+    z-index: 200;
+}
+
+/* Mountains Image */
+  
+.mountains {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    position:relative;
+    z-index: 199;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+/* Moving Clouds */
+
+.moving-clouds {
+    position: relative;
+    overflow-x: hidden;
+    top: -70vh;
+    left: 0;
+    z-index: 199;
+    animation: moveClouds 18s linear infinite;
+}
+
+/* Front End & Software Development Heading */
+ 
+.title2 {
+    font-family: 'poppins';
+    font-weight: bolder;
+    align-items: center;
+    font-size: 1.3em;
+    color: black;
+    padding-left: 10vw;
+    padding-top: 10vw;
+    top: 10vh;
+  }
+  
+.box-three {
+    background-color: white;
+    height: 120vh;
+    margin-left: 0;
+  }
+  
+.aboutme {
+    padding-top: 2vh;
+    padding-left: 10vw;
+    padding-right: 20vw
+  }
+    
+.educationtitle {
+    font-family: 'poppins';
+    font-weight: bolder;
+    align-items: center;
+    font-size: 1.3em;
+    color: black;
+    padding-left: 10vw;
+    padding-top: 10vw;
+    top: 4vh;
+}
+  
+.educationtext1 {
+    padding-top: 2vh;
+    padding-left: 10vw;
+    padding-right: 35vw;
+}
+  
+.educationtext2 {
+    padding-top: 2vh;
+    padding-left: 10vw;
+    padding-right: 35vw;
+    padding-bottom: 10vh;
+}
+  
+.box-four {
+    position: relative;
+    background-color: #f6f6f6;
+    height: 110vh;
+    
+}
+  
+.languagesandtoolstext {
+    font-family: 'poppins';
+    color: black;
+    padding-top: 2vh;
+    padding-left: 10vw;
+    padding-right: 35vw;
+}
+  
+.bx bxl-html5 bx-border-circle bx-lg {
+    position: absolute;
+    display: flex;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    margin-bottom: 3vh;
+    padding-bottom: 5vh;
+}
+  
+.title3 {
+    font-family: 'poppins';
+    font-weight: bolder;
+    align-items: center;
+    size: 1.3em;
+    color: black;
+    padding-left: 10vw;
+    padding-right: 30vw;
+    padding-top: 10vw;
+    top: 10vh;
+}
+  
+.box-five {
+    position: relative;
+    background-color: transparent;
+    height: 15vh;
+    margin-left: 10vw;
+    width: 50vw;
+    padding-top: 5vh;
+}
+  
+.emailtitle {
+    position: absolute;
+    top: 25vh;
+    display: flex;
+    font-family: 'poppins';
+    font-weight: bolder;
+    align-items: center;
+    font-size: 1.3em;
+    color: black;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    margin-top: 3vh;
+}
+
+.emailtext {
+    position: absolute;
+    top: 40vh;
+    display: flex;
+    font-family: 'poppins';
+} 
+
+/* Footer */
+  
+.footer {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    font-family: 'poppins';
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-left: 10vw;
+}
+
+/* Moving Clouds Animation */
+
+@keyframes moveClouds {
+    0% { left: 0px; }
+    100% { left: 70px; }
+}
+  
+/* Rehnell Portofilo Title when responsive */
+
+@media screen {
+    .h1 {
+        max-width: 682px;
+        font-size: 3em;
+    }
+}
