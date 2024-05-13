@@ -170,7 +170,7 @@ h1 {
     position: relative;
     overflow-x: hidden;
     top: -70vh;
-    left: 0;
+    margin-left: -600px;
     z-index: 199;
     animation: moveClouds 18s linear infinite;
 }
