@@ -128,7 +128,7 @@ h1 {
     padding-left: 10vw;
     align-items: center;
     text-align: center;
-    z-index: 201;
+    z-index: 202;
 }
 
 /* Sun Image */
@@ -171,7 +171,7 @@ h1 {
     overflow-x: hidden;
     top: -70vh;
     margin-left: -600px;
-    z-index: 199;
+    z-index: 201;
     animation: moveClouds 18s linear infinite;
 }
 
