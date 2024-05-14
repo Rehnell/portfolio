@@ -29,8 +29,8 @@ body {
 
 .navbar {
     overflow: hidden;
-    position: fixed;
-    background-color: white;
+    position: absolute;
+    background-color: transparent;
     border-bottom: 0.2rem;
     display: inline-flex;
     width: 100%;
