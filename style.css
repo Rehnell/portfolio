@@ -97,6 +97,19 @@ body {
     overflow: hidden;
 }
 
+h1 {
+    position: absolute;
+    display: flex;
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 40vh;
+    padding-left: 10vw;
+    align-items: center;
+    text-align: center;
+    z-index: 202;
+}
 /* Sun Image */
 
 .circle {
