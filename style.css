@@ -54,25 +54,6 @@ body {
     transition: 0.6s;
 }
 
-/* LinkedIn Icon */
-
-.bx bxl-linkedin-square bx-lg a::before {
-    cursor: pointer;
-    color: rgb(9, 106, 167);
-}
-
-.bx bxl-linkedin-square bx-lg a::after {
-    color: rgb(9, 106, 167);
-}
-
-.bx bxl-linkedin-square bx-lg a:visited {
-    color: rgb(9, 106, 167);
-}
-
-.bx bxl-linkedin-square bx-lg a:hover {
-    color: rgb(243, 243, 243);
-}
-
 /* Navbar Project Page Link */
 
 .items {
