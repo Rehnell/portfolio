@@ -161,7 +161,7 @@ body {
     top: -70vh;
     margin-left: -600px;
     z-index: 201;
-    animation: moveClouds 18s linear infinite;
+    animation: moveClouds 13s linear infinite;
 }
 
 /* Front End & Software Development Heading */
