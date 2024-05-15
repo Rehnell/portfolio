@@ -29,7 +29,7 @@ body {
 .navbar {
     overflow: hidden;
     position: absolute;
-    background-color: black;
+    background-color: white;
     border-bottom: 0.2rem;
     display: flex;
     width: 100%;
@@ -45,7 +45,7 @@ body {
     margin-right: auto;
     padding-left: 2vw;
     font-family: 'poppins';
-    color: white;
+    color: black;
     font-size: 1.5em;
     font-weight: bold;
     align-items: center;
@@ -64,7 +64,7 @@ body {
     font-family: 'poppins';
     font-weight: bold;
     font-size: 1.2rem;
-    color: white;
+    color: black;
     transition: 0.6s;
 }
 
@@ -75,7 +75,7 @@ body {
 }
 
 .items a:hover {
-    color: rgb(74, 74, 74);
+    color: white;
     transition: 1.5s ease;
     text-decoration: none;
     padding: 2rem;
@@ -84,7 +84,6 @@ body {
     align-items: center;
     transition: 0.6s;
 }
-
 
 .box-two {
     position: relative;
