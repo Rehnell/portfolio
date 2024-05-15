@@ -168,7 +168,7 @@ h1 {
   }
   
 .box-three {
-    background-color: rgb(44, 44, 44);
+    background-color:  rgb(255, 255, 255);
     height: 120vh;
     margin-left: 0;
   }
@@ -177,7 +177,7 @@ h1 {
     padding-top: 2vh;
     padding-left: 10vw;
     padding-right: 20vw
-    color: white;
+    color: black;
   }
     
 .educationtitle {
@@ -185,7 +185,7 @@ h1 {
     font-weight: bolder;
     align-items: center;
     font-size: 1.3em;
-    color: white;
+    color: black;
     padding-left: 10vw;
     padding-top: 10vw;
     top: 4vh;
@@ -195,7 +195,7 @@ h1 {
     padding-top: 2vh;
     padding-left: 10vw;
     padding-right: 35vw;
-    color: white;
+    color: black;
 }
   
 .educationtext2 {
@@ -203,7 +203,7 @@ h1 {
     padding-left: 10vw;
     padding-right: 35vw;
     padding-bottom: 10vh;
-    color: white;
+    color: black;
 }
   
 .box-four {
