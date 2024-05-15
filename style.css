@@ -137,10 +137,20 @@ body {
     width: 100%;
     height: 80vh;
     object-fit: cover;
-    position:relative;
+    position: relative;
     z-index: 199;
     overflow-x: hidden;
     overflow: hidden;
+}
+
+.man {
+    position: absolute;
+    overflow-x: hidden;
+    object-fit: cover;
+    z-index: 202;
+    top: 40vh;
+    height: 400px;
+    width:  300px;
 }
 
 /* Moving Clouds */
