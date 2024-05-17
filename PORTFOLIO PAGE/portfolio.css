@@ -255,7 +255,7 @@ h1 {
     font-weight: bolder;
     align-items: center;
     size: 1.3em;
-    color: black;
+    color: white;
     padding-left: 10vw;
     padding-right: 30vw;
     padding-top: 10vw;
@@ -271,12 +271,12 @@ h1 {
     padding-top: 10vw;
     top: 10vh;
     font-size: 1.3em;
-    color: black;
+    color: white;
 }
 
 .filmtext {
     font-family: 'poppins';
-    color: black;
+    color: white;
     padding-top: 2vh;
     padding-left: 10vw;
     padding-right: 35vw;
@@ -286,6 +286,7 @@ h1 {
 .githubfilmbookingsystem{
     margin-top: 5vh;
     padding-left: 10vw;
+    color: white;
 }
 
 .languagesandtoolstext3 {
@@ -293,7 +294,7 @@ h1 {
     font-weight: bolder;
     align-items: center;
     font-size: 1em;
-    color: black;
+    color: white;
     padding-left: 10vw;
     padding-top: 2vw;
     top: 4vh;
@@ -303,12 +304,13 @@ h1 {
     padding-top: 2vh;
     padding-left: 10vw;
     padding-right: 35vw;
+    color: white;
 }
 
 
 .box-five {
     position: relative;
-    background-color: white;
+    background-color: 0a353c;
     height: 140vh;
     width: 100%;
     padding-top: 5vh;
