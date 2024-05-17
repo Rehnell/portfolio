@@ -188,7 +188,7 @@ h1 {
     font-weight: bolder;
     align-items: center;
     font-size: 1.3em;
-    color: black;
+    color: white;
     padding-left: 10vw;
     padding-top: 10vw;
     top: 10vh;
@@ -196,7 +196,7 @@ h1 {
 
 .sandwichbartext {
     font-family: 'poppins';
-    color: black;
+    color: white;
     padding-top: 2vh;
     padding-left: 10vw;
     padding-right: 35vw;
@@ -206,6 +206,7 @@ h1 {
 .githubsandwichbar {
     margin-top: 5vh;
     padding-left: 10vw;
+    color: white;
 }
 
 .languagesandtoolstext2 {
@@ -213,7 +214,7 @@ h1 {
     font-weight: bolder;
     align-items: center;
     font-size: 1em;
-    color: black;
+    color: white;
     padding-left: 10vw;
     padding-top: 2vw;
     top: 4vh;
