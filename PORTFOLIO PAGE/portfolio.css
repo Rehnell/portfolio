@@ -113,14 +113,14 @@ h1 {
   font-weight: bolder;
   align-items: center;
   font-size: 1.3em;
-  color: black;
+  color: white;
   padding-left: 10vw;
   padding-top: 10vw;
   top: 10vh;
 }
 
 .box-three {
-    background-color: white;
+    background-color: background-color: rgb(30, 145, 147);
     height: 140vh;
     margin-left: 0;
 }
@@ -130,6 +130,7 @@ h1 {
     padding-left: 10vw;
     padding-right: 35vw;
     padding-bottom: 3vh;
+    color: white;
 }
 
 .githubcalculator {
@@ -153,7 +154,7 @@ h1 {
     font-weight: bolder;
     align-items: center;
     font-size: 1em;
-    color: black;
+    color: white;
     padding-left: 10vw;
     padding-top: 2vw;
     top: 4vh;
@@ -163,6 +164,7 @@ h1 {
     padding-top: 2vh;
     padding-left: 10vw;
     padding-right: 35vw;
+    color: white;
 }
 
 .educationtext2 {
