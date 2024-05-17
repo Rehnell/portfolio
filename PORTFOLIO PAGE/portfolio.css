@@ -149,7 +149,7 @@ h1 {
     min-width: 340px; /* Add this line to keep same height on smaller screens */
 }
   
-.educationtitle {
+.calculatortitle {
     font-family: 'poppins';
     font-weight: bolder;
     align-items: center;
@@ -160,7 +160,7 @@ h1 {
     top: 4vh;
 }
 
-.educationtext1 {
+.calculatortext2 {
     padding-top: 2vh;
     padding-left: 10vw;
     padding-right: 35vw;
