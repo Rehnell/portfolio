@@ -180,7 +180,6 @@ h1 {
     height: 140vh;
     margin-left: 0;
     width: 100%;
-  
 }
 
 .title3 {
@@ -226,12 +225,11 @@ h1 {
     padding-right: 35vw;
     color: white;
 }
+
 .icons2 {
     padding-left: 10vw;
     margin-top: 10px;
-
 }
-
 
 .bx bxl-html5 bx-border-circle bx-lg {
     position: absolute;
