@@ -264,7 +264,7 @@ body {
   
 .emailtitle {
     position: absolute;
-    top: 25vh;
+    top: 27vh;
     display: flex;
     font-family: 'poppins';
     font-weight: bolder;
@@ -278,7 +278,7 @@ body {
 
 .emailtext {
     position: absolute;
-    top: 40vh;
+    top: 42vh;
     display: flex;
     font-family: 'poppins';
 } 
