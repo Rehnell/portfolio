@@ -113,14 +113,14 @@ h1 {
   font-weight: bolder;
   align-items: center;
   font-size: 1.3em;
-  color: white;
+  color: black;
   padding-left: 10vw;
   padding-top: 10vw;
   top: 10vh;
 }
 
 .box-three {
-    background-color: #009193;
+    background-color: white;
     height: 140vh;
     margin-left: 0;
 }
@@ -130,13 +130,13 @@ h1 {
     padding-left: 10vw;
     padding-right: 35vw;
     padding-bottom: 3vh;
-    color: white;
+    color: clack;
 }
 
 .githubcalculator {
     margin-top: 5vh;
     padding-left: 10vw;
-    color: white;
+    color: black;
 }
 
 .calculatorimage {
@@ -155,7 +155,7 @@ h1 {
     font-weight: bolder;
     align-items: center;
     font-size: 1em;
-    color: white;
+    color: black;
     padding-left: 10vw;
     padding-top: 2vw;
     top: 4vh;
@@ -165,7 +165,7 @@ h1 {
     padding-top: 2vh;
     padding-left: 10vw;
     padding-right: 35vw;
-    color: white;
+    color: black;
 }
 
 .educationtext2 {
@@ -176,7 +176,7 @@ h1 {
 
 .box-four {
     position: relative;
-    background-color: #444444;
+    background-color: white;
     height: 140vh;
     margin-left: 0;
     width: 100%;
@@ -187,7 +187,7 @@ h1 {
     font-weight: bolder;
     align-items: center;
     font-size: 1.3em;
-    color: white;
+    color: black;
     padding-left: 10vw;
     padding-top: 10vw;
     top: 10vh;
@@ -195,7 +195,7 @@ h1 {
 
 .sandwichbartext {
     font-family: 'poppins';
-    color: white;
+    color: black;
     padding-top: 2vh;
     padding-left: 10vw;
     padding-right: 35vw;
@@ -205,7 +205,7 @@ h1 {
 .githubsandwichbar {
     margin-top: 5vh;
     padding-left: 10vw;
-    color: white;
+    color: black;
 }
 
 .languagesandtoolstext2 {
@@ -213,7 +213,7 @@ h1 {
     font-weight: bolder;
     align-items: center;
     font-size: 1em;
-    color: white;
+    color: black;
     padding-left: 10vw;
     padding-top: 2vw;
     top: 4vh;
@@ -223,7 +223,7 @@ h1 {
     padding-top: 2vh;
     padding-left: 10vw;
     padding-right: 35vw;
-    color: white;
+    color: black;
 }
 
 .icons2 {
@@ -255,7 +255,7 @@ h1 {
     font-weight: bolder;
     align-items: center;
     size: 1.3em;
-    color: white;
+    color: black;
     padding-left: 10vw;
     padding-right: 30vw;
     padding-top: 10vw;
@@ -271,12 +271,12 @@ h1 {
     padding-top: 10vw;
     top: 10vh;
     font-size: 1.3em;
-    color: white;
+    color: black;
 }
 
 .filmtext {
     font-family: 'poppins';
-    color: white;
+    color: black;
     padding-top: 2vh;
     padding-left: 10vw;
     padding-right: 35vw;
@@ -286,7 +286,7 @@ h1 {
 .githubfilmbookingsystem{
     margin-top: 5vh;
     padding-left: 10vw;
-    color: white;
+    color: black;
 }
 
 .languagesandtoolstext3 {
@@ -294,7 +294,7 @@ h1 {
     font-weight: bolder;
     align-items: center;
     font-size: 1em;
-    color: white;
+    color: black;
     padding-left: 10vw;
     padding-top: 2vw;
     top: 4vh;
@@ -304,13 +304,13 @@ h1 {
     padding-top: 2vh;
     padding-left: 10vw;
     padding-right: 35vw;
-    color: white;
+    color: black;
 }
 
 
 .box-five {
     position: relative;
-    background-color: black;
+    background-color: white;
     height: 140vh;
     width: 100%;
     padding-top: 5vh;
@@ -350,15 +350,6 @@ h1 {
     font-size: 1em;
     font-weight: 400;
     padding-left: 10vw;
-}
-
-box-seven {
-    position: relative;
-    background-color: green;
-    height: 15vh;
-    margin-left: 10vw;
-    width: 50vw;
-    padding-top: 5vh;
 }
 
 .icons {
