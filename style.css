@@ -160,8 +160,6 @@ body {
     position: relative;
     object-fit: cover;
     z-index: 203;
-    left: 20vw;
-    top: 25vh;
 }
 
 /* Moving Clouds */
