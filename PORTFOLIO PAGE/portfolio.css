@@ -143,8 +143,8 @@ h1 {
     display: flex;
     position: relative;
     margin-top: 30px;
-    height: 270px;
-    width: 300px;
+    height: 245px;
+    width: 280px;
     border-radius: 15px 15px 15px 15px;
     min-height: 310px; /* Add this line to keep same height on smaller screens */
     min-width: 340px; /* Add this line to keep same height on smaller screens */
