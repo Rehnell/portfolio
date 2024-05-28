@@ -153,6 +153,16 @@ body {
     width:  300px;
 }
 
+.letsexplore {
+    font-family: poppins;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    object-fit: cover;
+    z-index: 202;
+    left: 20vw;
+    top: 25vh;
+
 /* Moving Clouds */
 
 .moving-clouds {
