@@ -225,7 +225,11 @@ body {
     padding-bottom: 10vh;
     color: black;
 }
-  
+
+.badge {
+    position: absolute;
+}
+
 .box-four {
     position: relative;
     background-color: #f6f6f6;
