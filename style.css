@@ -29,7 +29,7 @@ body {
 
 .navbar {
     overflow: hidden;
-    position: absolute;
+    position: fixed;
     background-color: white;
     border-bottom: 0.2rem;
     display: flex;
@@ -66,24 +66,23 @@ body {
     font-weight: bold;
     font-size: 1.2rem;
     color: black;
-    transition: 0.6s;
+    transition: 0.6s ease;
 }
 
 .items a {
     color: black;
     text-decoration: none;
-    transition: 0.6s;
+    transition: 0.6s ease;
 }
 
 .items a:hover {
     color: rgb(74, 74, 74);
-    transition: 1.5s ease;
     text-decoration: none;
     padding: 2rem;
     font-family: 'poppins';
     font-weight: bold;
     align-items: center;
-    transition: 0.6s;
+    transition: 0.6s ease;
 }
 
 
@@ -153,13 +152,15 @@ body {
     width:  300px;
 }
 
-.letsexplore {
-    font-family: poppins;
-    font-size: 20px;
+h1 {
+    font-family: 'poppins';
+    font-size: 70px;
     color: white;
     position: absolute;
+    top: 30vh;
+    left: 40vw;
     object-fit: cover;
-    z-index: 203;
+    z-index: 500;
 }
 
 /* Moving Clouds */
@@ -187,7 +188,7 @@ body {
   }
   
 .box-three {
-    background-color:  rgb(255, 255, 255);
+    background-color: white;
     height: 135vh;
     margin-left: 0;
   }
@@ -328,3 +329,4 @@ body {
         font-size: 3em;
     }
 }
+
