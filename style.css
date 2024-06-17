@@ -152,13 +152,14 @@ body {
     width:  300px;
 }
 
-h1 {
+.maintitle {
     font-family: 'poppins';
-    font-size: 70px;
+    font-size: 40px;
     color: white;
     position: absolute;
-    top: 30vh;
-    left: 40vw;
+    top: 2vh;
+    left: 35vw;
+    object-fit: cover;
     z-index: 500;
 }
 
@@ -323,7 +324,7 @@ h1 {
 /* Rehnell Portofilo Title when responsive */
 
 @media screen {
-    .h1 {
+    h1 {
         max-width: 682px;
         font-size: 3em;
     }
