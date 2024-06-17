@@ -99,11 +99,11 @@ body {
 .maintitle {
     position: absolute;
     font-family: 'poppins';
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
     color: white;
-    padding-top: 40vh;
-    padding-left: 3vw;
+    padding-top: 32vh;
+    padding-left: 2vw;
     align-items: center;
     z-index: 202;
 }
