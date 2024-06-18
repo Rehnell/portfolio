@@ -155,16 +155,6 @@ body {
     width:  300px;
 }
 
-.maintitle {
-    font-family: 'poppins';
-    font-size: 40px;
-    color: white;
-    position: absolute;
-    top: 2vh;
-    left: 35vw;
-    object-fit: cover;
-    z-index: 500;
-}
 
 /* Moving Clouds */
 
