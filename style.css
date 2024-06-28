@@ -101,6 +101,19 @@ body {
 }
 
 .maintitle {
+    position: absolute;
+    font-family: 'poppins';
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    padding-top: 30vh;
+    padding-left: -3vw;
+    align-items: center;
+    z-index: 299;
+}
+
+/*
+.maintitle {
     font-family: 'poppins';
     font-size: 40px;
     color: white;
@@ -109,7 +122,8 @@ body {
     left: 35vw;
     object-fit: cover;
     z-index: 500;
-}
+} /*
+
 /* Sun Image */
 
 .circle {
