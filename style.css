@@ -102,11 +102,11 @@ body {
 
 .maintitle {
     font-family: 'poppins';
-    font-size: 40px;
+    font-size: 38px;
     color: white;
     position: absolute;
     top: 30vh;
-    left: 35vw;
+    left: 33vw;
     object-fit: cover;
     z-index: 299;
 }
