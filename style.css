@@ -325,53 +325,11 @@ h1 {
   
 /* Media Queries all dimensions when responsive */
 
-@media (max-width: 400px) {
-    
-}
-
-@media (max-width: 425px) {
-}
-
-@media (max-width: 450Px) {
-}
-
-@media (max-width: 600px) {
-}
-
-@media (max-width: 700px) {
-}
-
-@media (max-width: 750px) {
-}
-
-@media (max-width: 895px) {
-}
-
-@media (max-width: 900px) {
-}
-
-@media (max-width: 1020px) {
-}
-
-@media (max-width: 1150px) {
-}
 
 @media (max-width: 1250px) {
     h1 {
         font-size: 6em;
     }
-}
-
-@media (max-width: 1300px) {
-}
-
-@media (max-width: 1350px) {
-}
-
-@media (max-width: 1400px) {
-}
-
-@media (max-width: 1600px) {
 }
 
 @media (max-width: 1730px) {
