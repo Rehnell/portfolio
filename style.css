@@ -195,7 +195,23 @@ h1 {
     margin-left: 0;
   }
   
-.aboutme {
+.aboutme1 {
+    padding-top: 2vh;
+    padding-left: 10vw;
+    padding-right: 15vw;
+    color: black;
+    margin-right: 20vw;
+  }
+
+.aboutme2 {
+    padding-top: 2vh;
+    padding-left: 10vw;
+    padding-right: 15vw;
+    color: black;
+    margin-right: 20vw;
+  }
+
+.aboutme3 {
     padding-top: 2vh;
     padding-left: 10vw;
     padding-right: 15vw;
