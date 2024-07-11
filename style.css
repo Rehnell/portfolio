@@ -246,12 +246,6 @@ h1 {
     color: black;
 }
 
-.badge {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-}
-
 .box-four {
     position: relative;
     background-color: #f6f6f6;
