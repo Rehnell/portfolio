@@ -89,6 +89,16 @@ body {
     z-index: 300;
 }
 
+h1 {
+    font-family: 'poppins';
+    font-size: 8em;
+    color: white;
+    position: absolute;
+    top: 35vh;
+    left: 45vw;
+    object-fit: scale-down;
+    z-index: 500;
+}
 
 .box-two {
     position: relative;
@@ -313,12 +323,56 @@ body {
     100% { left: 70px; }
 }
   
-/* Rehnell Portofilo Title when responsive */
+/* Media Queries all dimensions when responsive */
 
-@media screen {
-    h1 {
-        max-width: 682px;
-        font-size: 3em;
-    }
+@media (max-width: 400px) {
+    
 }
 
+@media (max-width: 425px) {
+}
+
+@media (max-width: 450Px) {
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 700px) {
+}
+
+@media (max-width: 750px) {
+}
+
+@media (max-width: 895px) {
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 1020px) {
+}
+
+@media (max-width: 1150px) {
+}
+
+@media (max-width: 1250px) {
+}
+
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 1350px) {
+}
+
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1600px) {
+}
+
+@media (max-width: 1730px) {
+    .man {
+        
+    }
+}
