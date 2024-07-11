@@ -357,6 +357,9 @@ h1 {
 }
 
 @media (max-width: 1250px) {
+    h1 {
+        font-size: 6em;
+    }
 }
 
 @media (max-width: 1300px) {
