@@ -110,17 +110,6 @@ h1 {
     overflow: hidden;
 }
 
-.maintitle {
-    font-family: 'poppins';
-    font-size: 38px;
-    color: white;
-    position: absolute;
-    top: 30vh;
-    left: 30vw;
-    object-fit: cover;
-    z-index: 299;
-}
-
 /* Sun Image */
 
 .circle {
@@ -186,7 +175,7 @@ h1 {
     font-size: 1.3em;
     color: black;
     padding-left: 10vw;
-    padding-top: 5vw;
+    padding-top: 5vh;
 
   }
   
