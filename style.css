@@ -235,14 +235,7 @@ h1 {
     height: 800px;
     
 }
-  
-.languagesandtoolstext {
-    font-family: 'poppins';
-    color: black;
-    padding-top: 21px;
-    padding-left: 60px;
-    margin-right: 100px;
-}
+
 
 .title3 {
     font-family: 'poppins';
@@ -254,7 +247,15 @@ h1 {
     padding-right: 30vw;
     padding-top: 30px;
 }
-  
+
+.languagesandtoolstext {
+    font-family: 'poppins';
+    color: black;
+    padding-top: 21px;
+    padding-left: 60px;
+    margin-right: 100px;
+}
+
 .box-five {
     position: relative;
     background-color: transparent;
