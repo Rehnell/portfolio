@@ -156,7 +156,7 @@ h1 {
 }
 
 
-/* Moving Clouds */
+/* Moving Clouds image */
 
 .moving-clouds {
     position: relative;
@@ -167,15 +167,13 @@ h1 {
     animation: moveClouds 15s linear infinite;
 }
 
-/* Section Two */
+/* Section Two - About me & certifications */
 
 .box-three {
     background-color: white;
     height: 600px;
     margin-left: 0;
   }
-
-/* Front End & Software Development Heading */
  
 .title2 {
     display: flex;
@@ -224,47 +222,37 @@ h1 {
 }
   
 .educationtext2 {
-    padding-top: 2vh;
-    padding-left: 10vw;
-    padding-right: 35vw;
-    padding-bottom: 10vh;
+    padding-top: 21px;
+    padding-left: 60px;
+    padding-right: 5px;
+    margin-bottom: 50px;
     color: black;
 }
 
 .box-four {
     position: relative;
     background-color: #f6f6f6;
-    height: 120vh;
+    height: 800px;
     
 }
   
 .languagesandtoolstext {
     font-family: 'poppins';
     color: black;
-    padding-top: 2vh;
-    padding-left: 10vw;
-    padding-right: 35vw;
+    padding-top: 21px;
+    padding-left: 60px;
+    margin-right: 100px;
 }
-  
-.bx bxl-html5 bx-border-circle bx-lg {
-    position: absolute;
-    display: flex;
-    padding-top: 10vh;
-    padding-left: 10vw;
-    margin-bottom: 3vh;
-    padding-bottom: 5vh;
-}
-  
+
 .title3 {
     font-family: 'poppins';
     font-weight: bolder;
     align-items: center;
-    size: 1.3em;
+    font-size: 1.3em;
     color: black;
-    padding-left: 10vw;
+    padding-left: 60px;
     padding-right: 30vw;
-    padding-top: 10vw;
-    top: 10vh;
+    padding-top: 30px;
 }
   
 .box-five {
