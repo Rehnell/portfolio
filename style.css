@@ -34,7 +34,7 @@ body {
     border-bottom: 0.2rem;
     display: flex;
     width: 100%;
-    height: 10vh;
+    height: 90px;
     align-items: center;
     list-style: none;
     z-index: 300;
@@ -44,7 +44,7 @@ body {
 
 #logo {
     margin-right: auto;
-    padding-left: 2vw;
+    padding-left: 30px;
     font-family: 'poppins';
     color: black;
     font-size: 1.5em;
@@ -61,8 +61,8 @@ body {
     display: inline-block;
     align-items: center;
     text-decoration: none;
-    padding-right: 2vw;
-    margin-left: 2vw;
+    padding-right: 30px;
+    margin-left: 30px;
     font-family: 'poppins';
     font-weight: bold;
     font-size: 1.2rem;
@@ -94,16 +94,18 @@ h1 {
     font-size: 8em;
     color: white;
     position: absolute;
-    top: 35vh;
-    left: 45vw;
+    top: 378px;
+    left: 486px;
     object-fit: scale-down;
     z-index: 500;
 }
 
+/* Section One */
+
 .box-two {
     position: relative;
     background-color: transparent;
-    height: 80vh;
+    height: 550px;
     align-items: center;
     text-align: center;
     overflow-x: hidden;
@@ -135,7 +137,7 @@ h1 {
   
 .mountains {
     width: 100%;
-    height: 80vh;
+    height: 864px;
     object-fit: cover;
     position: relative;
     z-index: 199;
@@ -148,7 +150,7 @@ h1 {
     overflow-x: hidden;
     object-fit: cover;
     z-index: 202;
-    top: 40vh;
+    top: 300px;
     height: 400px;
     width:  300px;
 }
@@ -159,11 +161,19 @@ h1 {
 .moving-clouds {
     position: relative;
     overflow-x: hidden;
-    top: -70vh;
+    top: -800px;
     margin-left: -600px;
     z-index: 201;
-    animation: moveClouds 13s linear infinite;
+    animation: moveClouds 15s linear infinite;
 }
+
+/* Section Two */
+
+.box-three {
+    background-color: white;
+    height: 600px;
+    margin-left: 0;
+  }
 
 /* Front End & Software Development Heading */
  
@@ -174,31 +184,25 @@ h1 {
     align-items: center;
     font-size: 1.3em;
     color: black;
-    padding-left: 10vw;
-    padding-top: 5vh;
+    margin-left: 60px;
+    padding-top: 54px;
 
-  }
-  
-.box-three {
-    background-color: white;
-    height: 120vh;
-    margin-left: 0;
   }
   
 .aboutme1 {
-    padding-top: 2vh;
-    margin-left: 10vw;
-    padding-right: 15vw;
+    padding-top: 21px;
+    margin-left: 60px;
+    padding-right: 5px;
     color: black;
-    margin-right: 20vw;
+    margin-right: 100px;
   }
 
 .aboutme2 {
-    padding-top: 2vh;
-    padding-left: 10vw;
-    padding-right: 15vw;
+    padding-top: 21px;
+    padding-left: 60px;
+    padding-right: 5px;
     color: black;
-    margin-right: 20vw;
+    margin-right: 100px;
   }
     
 .educationtitle {
@@ -207,16 +211,15 @@ h1 {
     align-items: center;
     font-size: 1.3em;
     color: black;
-    padding-left: 10vw;
-    padding-top: 10vw;
-    top: 4vh;
+    padding-left: 60px;
+    padding-top: 30px;
 }
   
 .educationtext1 {
-    padding-top: 2vh;
-    padding-left: 10vw;
-    padding-right: 35vw;
-    padding-bottom: 5vh;
+    padding-top: 21px;
+    padding-left: 60px;
+    padding-right: 5px;
+    padding-bottom: 54px;
     color: black;
 }
   
