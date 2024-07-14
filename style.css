@@ -274,7 +274,6 @@ h1 {
 }
   
 .emailtitle {
-    position: absolute;
     top: 200px;
     display: flex;
     font-family: 'poppins';
