@@ -275,7 +275,7 @@ h1 {
 
 .emailtext {
     position: absolute;
-    top: 100px;
+    top: 200px;
     display: flex;
     font-family: 'poppins';
 } 
