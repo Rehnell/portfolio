@@ -182,14 +182,14 @@ h1 {
     align-items: center;
     font-size: 1.3em;
     color: black;
-    margin-left: 60px;
+    margin-left: 30px;
     padding-top: 54px;
 
   }
   
 .aboutme1 {
     padding-top: 21px;
-    margin-left: 60px;
+    margin-left: 30px;
     padding-right: 5px;
     color: black;
     margin-right: 100px;
@@ -197,7 +197,7 @@ h1 {
 
 .aboutme2 {
     padding-top: 21px;
-    padding-left: 60px;
+    padding-left: 30px;
     padding-right: 5px;
     color: black;
     margin-right: 100px;
@@ -209,7 +209,7 @@ h1 {
     align-items: center;
     font-size: 1.3em;
     color: black;
-    padding-left: 60px;
+    padding-left: 30px;
     padding-top: 30px;
 }
   
