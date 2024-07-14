@@ -33,7 +33,7 @@ body {
     border-bottom: 0.2rem;
     display: flex;
     width: 100%;
-    height: 12vh;
+    height: 90px;
     align-items: center;
     list-style: none;
     z-index: 300;
