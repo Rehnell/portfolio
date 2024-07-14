@@ -297,7 +297,7 @@ h1 {
 /* Footer */
   
 .footer {
-    height: 10vh;
+    height: 70px;
     width: 100%;
     display: flex;
     background-color: black;
@@ -306,7 +306,7 @@ h1 {
     color: white;
     text-align: center;
     align-items: center;
-    padding-left: 10vw;
+    padding-left: 60px;
 }
 
 /* Moving Clouds Animation */
@@ -314,19 +314,6 @@ h1 {
 @keyframes moveClouds {
     0% { left: 0px; }
     100% { left: 70px; }
-}
-  
-/* Media Queries all dimensions when responsive */
-
-
-@media screen and (max-width: 380px) {
-    .box-three {
-        height: 140vh;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .
 }
 
 
