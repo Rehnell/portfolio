@@ -275,17 +275,17 @@ h1 {
   
 .emailtitle {
     position: absolute;
-    top: 27vh;
+    top: 291px;
     display: flex;
     font-family: 'poppins';
     font-weight: bolder;
     align-items: center;
     font-size: 1.3em;
     color: black;
-    padding-top: 5vh;
-    padding-bottom: 2vh;
+    padding-top: 54px;
+    padding-bottom: 21px;
     margin-left: 30px;
-    margin-top: 3vh;
+    margin-top: 32px;
 }
 
 .emailtext {
