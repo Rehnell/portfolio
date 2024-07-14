@@ -272,19 +272,6 @@ h1 {
     background-color: transparent;
     margin-right: 5px;
 }
-  
-.emailtitle {
-    top: 200px;
-    display: flex;
-    font-family: 'poppins';
-    font-weight: bolder;
-    font-size: 1.3em;
-    color: black;
-    padding-top: 21px;
-    padding-bottom: 21px;
-    margin-left: 30px;
-    margin-top: 32px;
-}
 
 .emailtext {
     position: absolute;
