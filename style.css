@@ -264,6 +264,14 @@ h1 {
     width: 50vw;
     padding-top: 5vh;
 }
+
+.box-six {
+    top: 50px;
+    height: 160px;
+    width: 300px;
+    background-color: transparent;
+    margin-right: 5px;
+}
   
 .emailtitle {
     position: absolute;
