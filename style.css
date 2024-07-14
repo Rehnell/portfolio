@@ -256,7 +256,14 @@ h1 {
     margin-right: 100px;
 }
 
-
+.box-five {
+    position: relative;
+    background-color: transparent;
+    height: 0px;
+    margin-left: 10vw;
+    width: 50vw;
+    padding-top: 5vh;
+}
 
 .box-six {
     top: 50px;
