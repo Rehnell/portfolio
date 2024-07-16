@@ -90,6 +90,7 @@ body {
 }
 
 h1 {
+    position: relative;
     font-family: 'poppins';
     font-size: 8em;
     color: white;
