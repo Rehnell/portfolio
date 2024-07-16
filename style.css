@@ -183,14 +183,14 @@ h1 {
     align-items: center;
     font-size: 1.3em;
     color: black;
-    margin-left: 30px;
+    margin-left: 90px;
     padding-top: 54px;
 
   }
   
 .aboutme1 {
     padding-top: 21px;
-    margin-left: 30px;
+    margin-left: 90px;
     padding-right: 5px;
     color: black;
     margin-right: 100px;
@@ -201,7 +201,7 @@ h1 {
     padding-left: 30px;
     padding-right: 5px;
     color: black;
-    margin-right: 100px;
+    margin-right: 90px;
   }
     
 .educationtitle {
@@ -210,13 +210,13 @@ h1 {
     align-items: center;
     font-size: 1.3em;
     color: black;
-    padding-left: 30px;
+    margin-left: 90px;
     padding-top: 30px;
 }
   
 .educationtext1 {
     padding-top: 21px;
-    padding-left: 30px;
+    margin-left: 90px;
     padding-right: 5px;
     padding-bottom: 54px;
     color: black;
@@ -224,7 +224,7 @@ h1 {
   
 .educationtext2 {
     padding-top: 21px;
-    padding-left: 30px;
+    margin-left: 90px;
     padding-right: 5px;
     margin-bottom: 50px;
     color: black;
@@ -244,7 +244,7 @@ h1 {
     align-items: center;
     font-size: 1.3em;
     color: black;
-    padding-left: 30px;
+    margin-left: 90px;
     padding-right: 30vw;
     padding-top: 60px;
 }
@@ -253,7 +253,7 @@ h1 {
     font-family: 'poppins';
     color: black;
     padding-top: 21px;
-    padding-left: 30px;
+    margin-left: 90px;
     margin-right: 100px;
 }
 
