@@ -267,7 +267,8 @@ h2 {
 .box-six {
     height: 60px;
     width: 400px;
-    padding-left: 30px;
+    padding-left: 0px;
+    margin-left: 90px:
     background-color: transparent;
 }
 
