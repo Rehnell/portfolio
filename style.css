@@ -265,7 +265,10 @@ h2 {
 }
 
 .box-six {
+    height: 60px;
+    width: 400px;
     padding-left: 30px;
+    background-color: transparent;
 }
 
 .emailtext {
