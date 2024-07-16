@@ -274,9 +274,7 @@ h2 {
 }
 
 .emailtext {
-    position: absolute;
     top: 250px;
-    display: flex;
     font-family: 'poppins';
     padding-left: 90px;
 } 
