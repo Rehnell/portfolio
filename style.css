@@ -269,7 +269,8 @@ h2 {
     height: 160px;
     width: 300px;
     background-color: transparent;
-    margin-right: 5px;
+    padding-right: 90px;
+    padding-left: 90px;
 }
 
 .emailtext {
