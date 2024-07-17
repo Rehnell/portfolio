@@ -300,6 +300,7 @@ h2 {
 /* Footer */
   
 .footer {
+    position: fixed bottom;
     height: 70px;
     width: 100%;
     display: flex;
@@ -310,7 +311,6 @@ h2 {
     text-align: center;
     align-items: center;
     padding-left: 90px;
-    margin-top: auto;
 }
 
 /* Moving Clouds Animation */
