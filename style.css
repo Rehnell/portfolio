@@ -347,7 +347,8 @@ h2 {
 
 @media only screen and (max-width: 385px) {
     .reacticon {
-      top: 500px;
+      display: inline;
+      top: 300px;
       margin-left: 130px;
  } 
 }
