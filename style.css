@@ -335,5 +335,25 @@ h2 {
  } 
 }
 
+@media only screen and (max-width: 385px) {
+    h1 {
+      font-size: 5em;
+      top: 160px;
+      left: 60px;
+      z-index: 500;
+ } 
+}
 
+
+h1 {
+    position: relative;
+    font-family: 'poppins';
+    font-size: 8em;
+    color: white;
+    position: absolute;
+    top: 378px;
+    left: 486px;
+    object-fit: scale-down;
+    z-index: 500;
+}
 
