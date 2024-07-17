@@ -323,7 +323,7 @@ h2 {
 
 /* MOBILES */
 
-@media only screen and (max-width: 384px) {
+@media only screen and (max-width: 385px) {
     .box-three {
       height: 700px;
  } 
