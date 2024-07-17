@@ -336,21 +336,15 @@ h2 {
 }
 
 
-@media only screen and (min-width: 384px) {
+@media only screen and (min-width: 385px) {
     .bootstrapicon {
     display: block;
     }
 
 }
 
-@media only screen and (min-width: 384px) {
+@media only screen and (min-width: 385px) {
     .reacticon {
-    display: block;
-    }
-}
-
-@media only screen and (min-width: 384px) {
-    .sassicon {
     display: block;
     }
 }
