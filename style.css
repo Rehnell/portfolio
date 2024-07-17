@@ -93,6 +93,7 @@ h1 {
     position: relative;
     font-family: 'poppins';
     font-size: 8em;
+    font-weight: bold;
     color: white;
     position: absolute;
     top: 378px;
