@@ -235,7 +235,6 @@ h2 {
     position: relative;
     background-color: #f6f6f6;
     height: 500px; 
-    margin-bottom: 0;
 }
 
 
@@ -311,7 +310,6 @@ h2 {
     text-align: center;
     align-items: center;
     padding-left: 90px;
-    margin-top:0;
 }
 
 /* Moving Clouds Animation */
