@@ -344,3 +344,10 @@ h2 {
  } 
 }
 
+@media only screen and (max-width: 385px) {
+    .educationtext1 {
+      padding-right: 20px;
+ } 
+}
+
+
