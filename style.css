@@ -320,7 +320,14 @@ h2 {
 
 /* media queries - to make responsive for all devices */
 
-/* Let's explore title */
+
+/* MOBILES */
+
+@media only screen and (max-width: 384px) {
+    .box-three {
+      height: 700px;
+ } 
+}
 
 
 
