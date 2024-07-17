@@ -347,8 +347,15 @@ h2 {
 
 @media only screen and (max-width: 385px) {
     .educationtext1 {
-      padding-right: 20px;
+      padding-right: 60px;
  } 
 }
+
+@media only screen and (max-width: 385px) {
+    .footer {
+      margin-bottom: 60px;
+ } 
+}
+
 
 
