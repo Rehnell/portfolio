@@ -338,7 +338,7 @@ h2 {
 @media only screen and (max-width: 385px) {
     h1 {
       font-size: 5em;
-      top: 210px;
+      top: 400px;
       left: 60px;
       z-index: 500;
  } 
