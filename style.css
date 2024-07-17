@@ -172,7 +172,7 @@ h1 {
 
 .box-three {
     background-color: white;
-    height: 700px;
+    height: 400px;
     margin-left: 0;
     padding-bottom: 54px;
     margin-bottom: 54px;
@@ -322,5 +322,11 @@ h2 {
     0% { left: 0px; }
     100% { left: 70px; }
 }
+
+/* media queries - to make responsive for all devices */
+
+/* Let's explore title */
+
+@media only screen and (min-width: 
 
 
