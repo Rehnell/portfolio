@@ -327,7 +327,7 @@ h2 {
 
 /* Let's explore title */
 
-@media only screen and (max-width: 384px) {
+@media only screen and (min-width: 384px) {
     .bootstrapicon {
     display: block;
     }
@@ -335,7 +335,7 @@ h2 {
 }
 
 
-@media only screen and (max-width: 1140px) {
+@media only screen and (min-width: 1140px) {
     h1 {
         font-size: 6em;
     }
