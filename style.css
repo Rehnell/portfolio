@@ -322,25 +322,5 @@ h2 {
 
 /* Let's explore title */
 
-@media only screen and (min-width: 384px) {
-    .bootstrapicon {
-    display: block;
-    padding-left: 90px;
-    }
 
-}
-
-
-@media only screen and (min-width: 385px) {
-    .bootstrapicon {
-    display: block;
-    }
-
-}
-
-@media only screen and (min-width: 385px) {
-    .reacticon {
-    display: block;
-    }
-}
 
