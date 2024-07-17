@@ -348,6 +348,14 @@ h2 {
 }
 
 @media only screen and (max-width: 385px) {
+    .bootstrapicon {
+      display: block;
+ } 
+}
+
+
+
+@media only screen and (max-width: 385px) {
     .educationtext1 {
       padding-right: 60px;
  } 
