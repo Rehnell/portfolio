@@ -248,6 +248,41 @@ h2 {
     padding-top: 60px;
 }
 
+.jsicon {
+    height: 45px;
+    width: 45px;
+}
+
+.pythonicon {
+    height: 45px;
+    width: 45px;
+}
+
+.htmlicon {
+    height: 45px;
+    width: 45px;
+}
+
+.cssicon {
+    height: 45px;
+    width: 45px;
+}
+
+.bootstrapicon {
+    height: 50px;
+    width: 50px;
+}
+
+.reacticon {
+    height: 50px;
+    width: 50px;
+}
+
+.sassicon {
+    height: 50px;
+    width: 50px;
+}
+
 .languagesandtoolstext {
     font-family: 'poppins';
     color: black;
