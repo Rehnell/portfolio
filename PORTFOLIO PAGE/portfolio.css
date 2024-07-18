@@ -395,6 +395,11 @@ h1 {
     .calculatortext2 {
       padding-left: 60px;
     }
+    
+    .calculatorimage {
+      align-items: center;
+    }
+    
     .githubcalculator {
       padding-left: 60px;
     }
