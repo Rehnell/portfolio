@@ -143,10 +143,10 @@ h1 {
     position: relative;
     padding-left: 144px;
     margin-top: 30px;
-    height: 170px;
+    height: 310px;
     width: 400px;
     min-height: 310px; /* Add this line to keep same height on smaller screens */
-    min-width: 340px; /* Add this line to keep same height on smaller screens */
+    min-width: 400px; /* Add this line to keep same height on smaller screens */
 }
   
 .calculatortitle {
