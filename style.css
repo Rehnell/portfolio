@@ -316,8 +316,8 @@ h2 {
 @media only screen and (max-width: 1024px) {
     h1 {
       font-size: 6rem;
-      top: 480px;
-      left: 400px;
+      top: 450px;
+      left: 380px;
       z-index: 299;
  } 
 }
