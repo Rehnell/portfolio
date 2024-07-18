@@ -366,13 +366,14 @@ h2 {
       font-size: 3rem;
       top: 485px;
       left: 20px;
+    }
 
     .box-three {
       height: 1050px;
- } 
+    }
     .box-four {
       height: 800px;
- }
+    }
 }
 
 
