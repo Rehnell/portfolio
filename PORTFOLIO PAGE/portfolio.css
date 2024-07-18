@@ -353,12 +353,6 @@ h1 {
     padding-left: 10vw;
 }
 
-.icons {
-    padding-left: 10vw;
-    margin-top: 10px;
-
-}
-
 /* footer */
 
 .footer {
@@ -398,7 +392,7 @@ h1 {
     
     .calculatorimage {
       padding-left: 70px;
-      height: 80px;
+      height: 60px;
       width: 120px;
     }
     
