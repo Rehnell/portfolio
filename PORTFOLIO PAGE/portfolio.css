@@ -397,7 +397,9 @@ h1 {
     }
     
     .calculatorimage {
-      align-items: center;
+      padding-left: 60px;
+      height: 200px;
+      width: 240px;
     }
     
     .githubcalculator {
