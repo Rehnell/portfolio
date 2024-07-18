@@ -226,18 +226,6 @@ h1 {
     color: black;
 }
 
-.icons2 {
-    padding-left: 10vw;
-    margin-top: 10px;
-}
-
-.bx bxl-html5 bx-border-circle bx-lg {
-    position: absolute;
-    display: flex;
-    padding-top: 10vh;
-    padding-left: 10vw;
-}
-
 .sandwichbarimage {
     display: flex;
     position: relative;
@@ -326,11 +314,6 @@ h1 {
     border-radius: 15px 15px 15px 15px;
     min-height: 310px; /* Add this line to keep same height on smaller screens */
     min-width: 340px; /* Add this line to keep same height on smaller screens */
-}
-
-.icons3 {
-    padding-left: 10vw;
-    margin-top: 10px;
 }
 
 .contact {
