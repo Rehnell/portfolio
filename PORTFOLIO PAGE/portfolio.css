@@ -144,7 +144,7 @@ h1 {
     padding-left: 144px;
     margin-top: 30px;
     height: 170px;
-    width: 280px;
+    width: 320px;
     min-height: 310px; /* Add this line to keep same height on smaller screens */
     min-width: 340px; /* Add this line to keep same height on smaller screens */
 }
@@ -229,7 +229,7 @@ h1 {
     display: flex;
     position: relative;
     margin-top: 30px;
-    padding-left: 60px;
+    padding-left: 144px;
     height: 240px;
     width: 280px;
     min-height: 310px; /* Add this line to keep same height on smaller screens */
@@ -292,7 +292,7 @@ h1 {
     display: flex;
     position: relative;
     margin-top: 30px;
-    padding-left: 60px;
+    padding-left: 144px;
     height: 270px;
     width: 300px;
     min-height: 310px; /* Add this line to keep same height on smaller screens */
