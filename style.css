@@ -361,7 +361,7 @@ h2 {
 
 /* MOBILE - MAX-WIDTH 360px */
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 361px) {
     h1 {
       font-size: 3rem;
       top: 485px;
