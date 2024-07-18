@@ -389,6 +389,8 @@ h1 {
     
     .filmbookingsystemimage {
       padding-left: 60px;
+      height: 40px;
+      width: 120px;
     }
     
     .filmbookinglanguages {
