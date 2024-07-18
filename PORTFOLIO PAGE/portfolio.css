@@ -233,7 +233,7 @@ h1 {
     height: 240px;
     width: 280px;
     min-height: 310px; /* Add this line to keep same height on smaller screens */
-    min-width: 340px; /* Add this line to keep same height on smaller screens */
+    min-width: 430px; /* Add this line to keep same height on smaller screens */
 }
 
 .title4 {
@@ -296,7 +296,7 @@ h1 {
     height: 270px;
     width: 300px;
     min-height: 310px; /* Add this line to keep same height on smaller screens */
-    min-width: 340px; /* Add this line to keep same height on smaller screens */
+    min-width: 430px; /* Add this line to keep same height on smaller screens */
 }
 
 /* footer */
