@@ -195,10 +195,10 @@ h1 {
 .sandwichbartext {
     font-family: 'poppins';
     color: black;
-    padding-top: 2vh;
-    padding-left: 10vw;
-    padding-right: 35vw;
-    padding-bottom: 3vh;
+    padding-top: 14px;
+    padding-left: 144px;
+    padding-right: 504px;
+    padding-bottom: 21px;
 }
 
 .githubsandwichbar {
