@@ -232,8 +232,8 @@ h1 {
     padding-left: 144px;
     height: 310px;
     width: 480px;
-    min-height: 310px; /* Add this line to keep same height on smaller screens */
-    min-width: 430px; /* Add this line to keep same height on smaller screens */
+    min-height: 210px; /* Add this line to keep same height on smaller screens */
+    min-width: 360px; /* Add this line to keep same height on smaller screens */
 }
 
 .title4 {
@@ -295,8 +295,8 @@ h1 {
     padding-left: 144px;
     height: 310px;
     width: 480px;
-    min-height: 310px; /* Add this line to keep same height on smaller screens */
-    min-width: 430px; /* Add this line to keep same height on smaller screens */
+    min-height: 210px; /* Add this line to keep same height on smaller screens */
+    min-width: 360px; /* Add this line to keep same height on smaller screens */
 }
 
 /* footer */
