@@ -232,6 +232,7 @@ h1 {
     position: relative;
     margin-top: 30px;
     margin-left: 10vw;
+    padding-left: 60px;
     height: 240px;
     width: 280px;
     min-height: 310px; /* Add this line to keep same height on smaller screens */
