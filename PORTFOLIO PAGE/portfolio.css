@@ -101,9 +101,9 @@ h1 {
     font-size: 2rem;
     font-weight: bold;
     color: black;
-    padding-top: 30vh;
-    padding-left: 10vw;
-    margin-top: 0vh;
+    padding-top: 70px;
+    padding-left: 144px;
+    margin-top: 0px;
     z-index: 200;
 }
     
@@ -113,35 +113,35 @@ h1 {
   align-items: center;
   font-size: 1.3rem;
   color: black;
-  padding-left: 10vw;
-  padding-top: 10vw;
-  top: 10vh;
+  padding-left: 144px;
+  padding-top: 70px;
+  top: 70px;
 }
 
 .box-three {
     background-color: white;
-    height: 117vh;
+    height: 828px;
     margin-left: 0;
 }
 
 .calculatortext {
-    padding-top: 2vh;
-    padding-left: 10vw;
-    padding-right: 35vw;
-    padding-bottom: 3vh;
-    color: clack;
+    padding-top: 14px;
+    padding-left: 144px;
+    padding-right: 504px;
+    padding-bottom: 21px;
+    color: black;
 }
 
 .githubcalculator {
-    margin-top: 5vh;
-    padding-left: 10vw;
+    margin-top: 35px;
+    padding-left: 144px;
     color: black;
 }
 
 .calculatorimage {
     display: flex;
     position: relative;
-    padding-left: 60px;
+    padding-left: 144px;
     margin-top: 30px;
     height: 170px;
     width: 280px;
@@ -155,28 +155,28 @@ h1 {
     align-items: center;
     font-size: 1rem;
     color: black;
-    padding-left: 10vw;
-    padding-top: 2vw;
-    top: 4vh;
+    padding-left: 144px;
+    padding-top: 28px;
+    top: 28px;
 }
 
 .calculatortext2 {
-    padding-top: 2vh;
-    padding-left: 10vw;
-    padding-right: 35vw;
+    padding-top: 14px;
+    padding-left: 144px;
+    padding-right: 504px;
     color: black;
 }
 
 .educationtext2 {
-    padding-top: 2vh;
-    padding-left: 10vw;
-    padding-right: 35vw;
+    padding-top: 14px;
+    padding-left: 144px;
+    padding-right: 504px;
 }
 
 .box-four {
     position: relative;
     background-color: white;
-    height: 117vh;
+    height: 828px;
     margin-left: 0;
     width: 100%;
 }
@@ -187,9 +187,9 @@ h1 {
     align-items: center;
     font-size: 1.3rem;
     color: black;
-    padding-left: 10vw;
-    padding-top: 10vw;
-    top: 10vh;
+    padding-left: 144px;
+    padding-top: 70px;
+    top: 70px;
 }
 
 .sandwichbartext {
