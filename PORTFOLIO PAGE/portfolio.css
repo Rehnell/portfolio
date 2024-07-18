@@ -316,25 +316,6 @@ h1 {
     min-width: 340px; /* Add this line to keep same height on smaller screens */
 }
 
-.contact {
-    font-family: 'poppins';
-    font-weight: bolder;
-    align-items: center;
-    font-size: 1.3em;
-    color: black;
-    padding-left: 10vw;
-    padding-top: 20vh;
-    top: 15vh;
-    padding-bottom: 2vh;
-}
-
-.contacttext {
-    font-family: 'poppins';
-    font-size: 1em;
-    font-weight: 400;
-    padding-left: 10vw;
-}
-
 /* footer */
 
 .footer {
