@@ -219,7 +219,7 @@ h1 {
 }
 
 .sandwichbarlanguages {
-    padding-top: 2vh;
+    padding-top: 14px;
     padding-left: 144px;
     padding-right: 100px;
     color: black;
@@ -250,14 +250,14 @@ h1 {
 .filmtext {
     font-family: 'poppins';
     color: black;
-    padding-top: 2vh;
-    padding-left: 10vw;
-    padding-right: 35vw;
-    padding-bottom: 3vh;
+    padding-top: 14px;
+    padding-left: 144px;
+    padding-right: 100px;
+    padding-bottom: 21px;
 }
 
 .githubfilmbookingsystem{
-    margin-top: 5vh;
+    margin-top: 35px;
     padding-left: 144px;
     color: black;
 }
@@ -268,25 +268,24 @@ h1 {
     align-items: center;
     font-size: 1rem;
     color: black;
-    padding-left: 10vw;
-    padding-top: 2vw;
-    top: 4vh;
+    padding-left: 144px;
+    padding-top: 28px;
+    top: 28px;
 }
 
 .filmbookinglanguages {
-    padding-top: 2vh;
-    padding-left: 10vw;
-    padding-right: 35vw;
+    padding-top: 14px;
+    padding-left: 144px;
+    padding-right: 100px;
     color: black;
 }
-
 
 .box-five {
     position: relative;
     background-color: white;
-    height: 117vh;
+    height: 828px;
     width: 100%;
-    padding-top: 5vh;
+    padding-top: 35px;
 }
 
 .filmbookingsystemimage {
