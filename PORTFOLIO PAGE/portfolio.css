@@ -356,7 +356,8 @@ h1 {
 /* footer */
 
 .footer {
-    height: 10vh;
+    position: absolute;
+    height: 70px;
     width: 100%;
     display: flex;
     background-color: black;
@@ -365,7 +366,9 @@ h1 {
     color: white;
     text-align: center;
     align-items: center;
-    padding-left: 10vw;
+    padding-left: 90px;
+    margin-top: 90px;
+    bottom: 0;
 }
 
 /* MOBILE - MAX-WIDTH 385PX */
