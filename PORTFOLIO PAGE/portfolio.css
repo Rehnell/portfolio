@@ -365,6 +365,7 @@ h1 {
       padding-left: 60px;
       height: 40px;
       width: 120px;
+    }
     
     .githubcalculator {
       padding-left: 60px;
@@ -372,6 +373,7 @@ h1 {
     
     .sandwichbartext {
       padding-left: 60px;
+    }
 
     .githubsandwichbar {
       padding-left: 60px;
@@ -379,8 +381,10 @@ h1 {
         
     .sandwichbarlanguages {
       padding-left: 60px;
+    }
         
     .languagesandtoolstext2 {
       padding-left: 60px;
+    }
 }
 
