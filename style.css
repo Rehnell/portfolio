@@ -444,7 +444,7 @@ h2 {
  } 
 }  
 
-/* MOBILE - MAX-WIDTH 320px */
+/* MOBILE - MAX-WIDTH 320px 
 
 @media only screen and (max-width: 320px) {
     #logo {
@@ -472,4 +472,4 @@ h2 {
       font-size: 1.2rem;
  } 
 }
-
+*/
