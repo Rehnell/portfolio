@@ -311,7 +311,7 @@ h2 {
     100% { left: 70px; }
 }
 
-/* DESKTOP & LAPTOPS 1024px */
+/* 1024px - MAX-WIDTH - DESKTOP & LAPTOPS */
 
 @media only screen and (max-width: 1024px) {
     h1 {
@@ -322,7 +322,35 @@ h2 {
  } 
 }
 
-/* MOBILE - MAX-WIDTH 385px */
+/* 922px - MAX-WIDTH - DESKTOP & LAPTOPS */
+
+@media only screen and (max-width: 992px) {
+    h1 {
+      font-size: 6rem;
+      top: 433px;
+      left: 250px;
+      z-index: 299;
+ } 
+}
+
+@media only screen and (max-width: 992px) {
+    .box-three {
+      height: 500px;
+ } 
+}
+
+@media only screen and (max-width: 992px) {
+    .box-four {
+      height: 500px;
+ } 
+}
+
+/* 768px - MAX-WIDTH - LANDSCAPE TABLETS */
+
+
+
+
+/* 385px - MAX-WIDTH - MOBILE  */
 
 @media only screen and (max-width: 385px) {
     .box-three {
