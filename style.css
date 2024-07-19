@@ -424,19 +424,19 @@ h2 {
 
 /* MOBILE - MIN-WIDTH 361px */
 
-@media only screen and (min-width: 361px) {
+@media only screen and (min-width: 360px) {
     #logo {
       font-size: 1.6rem;
  } 
 }
 
-@media only screen and (min-width: 361px) {
+@media only screen and (min-width: 360px) {
     .items {
       font-size: 1.3rem;
  } 
 }
 
-@media only screen and (min-width: 361px) {
+@media only screen and (min-width: 360px) {
     h1 {
       font-size: 2.8rem;
       top: 491px;
@@ -445,7 +445,7 @@ h2 {
  } 
 }
 
-@media only screen and (min-width: 361px) {
+@media only screen and (min-width: 360px) {
     h2 {
       font-size: 1.2rem;
       padding-left: 40px;
@@ -453,13 +453,13 @@ h2 {
  } 
 }
 
-@media only screen and (min-width: 361px) {
+@media only screen and (min-width: 360px) {
     .box-three {
       height: 900px;
  } 
 }
 
-@media only screen and (min-width: 361px) {
+@media only screen and (min-width: 360px) {
     .box-four {
       height: 650px;
  } 
