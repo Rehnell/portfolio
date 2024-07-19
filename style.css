@@ -467,4 +467,9 @@ h2 {
  } 
 }
 
+@media only screen and (min-width: 360px) {
+    h2 {
+      font-size: 2.5rem;
+ } 
+}
 
