@@ -347,6 +347,14 @@ h2 {
 
 /* 768px - MAX-WIDTH - LANDSCAPE TABLETS */
 
+@media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 5rem;
+      top: 448px;
+      left: 220px;
+      z-index: 299;
+ } 
+}
 
 
 
