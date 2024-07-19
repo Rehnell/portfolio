@@ -418,9 +418,15 @@ h2 {
  } 
 }
 
-/* MOBILE - MAX-WIDTH 360px */
+/* MOBILE - MIN-WIDTH 360px */
 
-@media only screen and (max-width: 360px) {
+
+
+
+
+/* MOBILE - MIN-WIDTH 360px */
+
+@media only screen and (min-width: 360px) {
     h1 {
       font-size: 3rem;
       top: 485px;
@@ -429,13 +435,13 @@ h2 {
  } 
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 360px) {
     .box-three {
       height: 1050px;
  } 
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 360px) {
     .box-four {
       height: 800px;
  } 
