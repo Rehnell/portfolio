@@ -313,7 +313,7 @@ h2 {
 
 /* 1024px - MAX-WIDTH - DESKTOP & LAPTOPS */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     h1 {
       font-size: 6rem;
       top: 430px;
@@ -324,7 +324,7 @@ h2 {
 
 /* 922px - MAX-WIDTH - DESKTOP & LAPTOPS */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
     h1 {
       font-size: 6rem;
       top: 433px;
@@ -333,13 +333,13 @@ h2 {
  } 
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
     .box-three {
       height: 500px;
  } 
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
     .box-four {
       height: 500px;
  } 
@@ -347,7 +347,7 @@ h2 {
 
 /* 768px - MAX-WIDTH - LANDSCAPE TABLETS */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     h1 {
       font-size: 5rem;
       top: 448px;
@@ -356,12 +356,29 @@ h2 {
  } 
 }
 
-@media only screen and (max-width: 385px) {
+@media only screen and (min-width: 768px) {
     .box-three {
       height: 550px;
  } 
 }
 
+
+/* 600px - MIN-WIDTH PORTRAIT TABLETS AND LARGE PHONES */
+
+@media only screen and (min-width: 600px) {
+    h1 {
+      font-size: 4.5rem;
+      top: 460px;
+      left: 110px;
+      z-index: 299;
+ } 
+}
+
+@media only screen and (min-width: 600px) {
+    .box-three {
+      height: 600px;
+ } 
+}
 
 
 /* 385px - MAX-WIDTH - MOBILE  */
