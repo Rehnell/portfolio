@@ -456,58 +456,39 @@ h2 {
 @media only screen and (max-width: 361px) {
     .aboutme1 {
       padding-left: 30px;
-      padding-right: 0px;
  } 
 }
 
 @media only screen and (max-width: 361px) {
     .aboutme2 {
       padding-left: 30px;
-      padding-right: 0px;
  } 
 }
 
 @media only screen and (max-width: 361px) {
     .educationtitle {
       padding-left: 30px;
-      padding-right: 0px;
  } 
 }
 
 @media only screen and (max-width: 361px) {
     .educationtext1 {
       padding-left: 30px;
-      padding-right: 0px;
  } 
 }
 
 @media only screen and (max-width: 361px) {
     .title3 {
       padding-left: 30px;
-      padding-right: 0px;
  } 
 }
 
 @media only screen and (max-width: 361px) {
     .languagesandtoolstext {
       padding-left: 30px;
-      padding-right: 0px;
  } 
 }
 
-@media only screen and (max-width: 361px) {
-    .title3 {
-      padding-left: 30px;
-      padding-right: 0px;
- } 
-}
-
-@media only screen and (max-width: 361px) {
-    .title3 {
-      padding-left: 30px;
-      padding-right: 0px;
- } 
-}
 
 @media only screen and (max-width: 361px) {
     .pythonicon {
