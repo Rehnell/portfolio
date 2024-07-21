@@ -615,19 +615,19 @@ h2 {
 
 /* MOBILE - MIN-WIDTH 320px */
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     #logo {
       font-size: 1.2rem;
  } 
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     .items {
       font-size: 0.9rem;
  } 
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     h1 {
       font-size: 2.8rem;
       top: 491px;
@@ -636,7 +636,7 @@ h2 {
  } 
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     h2 {
       font-size: 1.2rem;
       padding-left: 40px;
@@ -650,70 +650,70 @@ h2 {
  } 
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     .aboutme2 {
       padding-left: 40px;
       padding-right: 0;
  } 
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     .educationtitle {
       padding-left: 40px;
       padding-right: 0;
  } 
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     .educationtext1 {
       padding-left: 40px;
       padding-right: 20px;
  } 
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     .title3 {
       padding-left: 40px;
       padding-right: 0px;
  } 
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     .languagesandtoolstext {
       padding-left: 40px;
       padding-right: 0px;
  } 
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     .title3 {
       padding-left: 40px;
       padding-right: 0px;
  } 
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     .title3 {
       padding-left: 40px;
       padding-right: 0px;
  } 
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     .pythonicon {
       margin-left: 40px;
       padding-right: 0px;
  } 
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     .box-four {
       height: 750px;
  } 
 }
 
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
     .footer {
       padding-left: 40px;
       padding-right: 0px;
