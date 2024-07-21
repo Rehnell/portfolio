@@ -398,9 +398,9 @@ h2 {
 }
 
 
-/* 600px - MIN-WIDTH PORTRAIT TABLETS AND LARGE PHONES */
+/* 601px - MIN-WIDTH PORTRAIT TABLETS AND LARGE PHONES */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 601px) {
     h1 {
       font-size: 4.5rem;
       top: 460px;
@@ -409,7 +409,7 @@ h2 {
  } 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 601px) {
     .box-three {
       height: 600px;
  } 
