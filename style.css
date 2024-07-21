@@ -416,6 +416,22 @@ h2 {
 }
 
 
+/* 413px - MAX-WIDTH - LARGE MOBILE  */
+
+@media only screen and (max-width: 413px) {
+    h1 {
+      font-size: 3rem;
+      top: 490px;
+      left: 90px;
+ } 
+}
+
+@media only screen and (max-width: 413px) {
+    .box-three {
+      height: 900px;
+ } 
+}
+
 /* 385px - MAX-WIDTH - MOBILE  */
 
 @media only screen and (max-width: 385px) {
