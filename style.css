@@ -348,13 +348,30 @@ h2 {
  } 
 }
 
-/* 820px - MIN-WIDTH - PORTRAIT TABLETS */
+/* 820px - MAX-WIDTH - PORTRAIT TABLETS */
 
 @media only screen and (max-width: 820px) {
     h1 {
       font-size: 5rem;
+      top: 445px;
  } 
 }
+
+/* 641px - MAX-WIDTH PORTRAIT TABLETS AND LARGE PHONES */
+
+@media only screen and (max-width: 641px) {
+    h1 {
+      font-size: 4rem;
+      top: 470px;
+ } 
+}
+
+@media only screen and (max-width: 641px) {
+    .box-three {
+      height: 600px;
+ } 
+}
+
 
 
 /* 768px - MAX-WIDTH - LANDSCAPE TABLETS */
