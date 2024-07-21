@@ -432,6 +432,12 @@ h2 {
  } 
 }
 
+@media only screen and (max-width: 413px) {
+    .box-four {
+      height: 650px;
+ } 
+}
+
 /* 385px - MAX-WIDTH - MOBILE  */
 
 @media only screen and (max-width: 385px) {
