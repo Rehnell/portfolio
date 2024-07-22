@@ -475,6 +475,104 @@ h2 {
  } 
 }
 
+
+
+/* MOBILE - MIN-WIDTH 361px */
+
+@media only screen and (max-width: 361px) {
+    #logo {
+      font-size: 1.4rem;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .items {
+      font-size: 1.2rem;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    h1 {
+      font-size: 2.8rem;
+      top: 491px;
+      left: 60px;
+      z-index: 299;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    h2 {
+      font-size: 1.2rem;
+      padding-left: 30px;
+      padding-right: 20px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .aboutme1 {
+      padding-left: 30px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .aboutme2 {
+      padding-left: 30px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .educationtitle {
+      padding-left: 30px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .educationtext1 {
+      padding-left: 35px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .title3 {
+      padding-left: 30px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .languagesandtoolstext {
+      padding-left: 30px;
+ } 
+}
+
+
+@media only screen and (max-width: 361px) {
+    .pythonicon {
+      margin-left: 30px;
+      padding-right: 0px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .footer {
+      padding-left: 30px;
+      padding-right: 0px;
+ } 
+}
+
+
+@media only screen and (max-width: 361px) {
+    .box-three {
+      height: 1000px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .box-four {
+      height: 650px;
+ } 
+}  
+
+
 /* MOBILE - MIN-WIDTH 360px */
 
 @media only screen and (max-width: 360px) {
@@ -569,103 +667,6 @@ h2 {
  } 
 }  
 
-
-
-/* MOBILE - MIN-WIDTH 361px */
-
-@media only screen and (max-width: 361px) {
-    #logo {
-      font-size: 1.4rem;
- } 
-}
-
-@media only screen and (max-width: 361px) {
-    .items {
-      font-size: 1.2rem;
- } 
-}
-
-@media only screen and (max-width: 361px) {
-    h1 {
-      font-size: 2.8rem;
-      top: 491px;
-      left: 60px;
-      z-index: 299;
- } 
-}
-
-@media only screen and (max-width: 361px) {
-    h2 {
-      font-size: 1.2rem;
-      padding-left: 30px;
-      padding-right: 20px;
- } 
-}
-
-@media only screen and (max-width: 361px) {
-    .aboutme1 {
-      padding-left: 30px;
- } 
-}
-
-@media only screen and (max-width: 361px) {
-    .aboutme2 {
-      padding-left: 30px;
- } 
-}
-
-@media only screen and (max-width: 361px) {
-    .educationtitle {
-      padding-left: 30px;
- } 
-}
-
-@media only screen and (max-width: 361px) {
-    .educationtext1 {
-      padding-left: 35px;
- } 
-}
-
-@media only screen and (max-width: 361px) {
-    .title3 {
-      padding-left: 30px;
- } 
-}
-
-@media only screen and (max-width: 361px) {
-    .languagesandtoolstext {
-      padding-left: 30px;
- } 
-}
-
-
-@media only screen and (max-width: 361px) {
-    .pythonicon {
-      margin-left: 30px;
-      padding-right: 0px;
- } 
-}
-
-@media only screen and (max-width: 361px) {
-    .footer {
-      padding-left: 30px;
-      padding-right: 0px;
- } 
-}
-
-
-
-@media only screen and (max-width: 361px) {
-    .box-three {
-      height: 1000px;
- } 
-}
-
-@media only screen and (max-width: 361px) {
-    .box-four {
-      height: 650px;
- } 
-}  
 
 /* MOBILE - MIN-WIDTH 320px */
 
