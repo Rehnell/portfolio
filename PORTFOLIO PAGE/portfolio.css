@@ -316,6 +316,21 @@ h1 {
     bottom: 0;
 }
 
+/* MOBILE - MIN-WIDTH 361px */
+
+@media only screen and (max-width: 361px) {
+    #logo {
+      font-size: 1.3rem;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .items {
+      font-size: 1.1rem;
+ } 
+}
+
+
 /* MOBILE - MAX-WIDTH 385PX */
 
 @media only screen and (max-width: 385px) {
