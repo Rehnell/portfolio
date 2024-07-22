@@ -667,6 +667,15 @@ h2 {
  } 
 }  
 
+/* MOBILE - MIN-WIDTH 359px */
+
+
+@media only screen and (max-width: 360px) {
+    #logo {
+      font-size: 1.1rem;
+ } 
+}
+
 
 /* MOBILE - MIN-WIDTH 320px */
 
