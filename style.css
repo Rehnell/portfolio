@@ -670,12 +670,17 @@ h2 {
 /* MOBILE - MIN-WIDTH 359px */
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 359px) {
     #logo {
       font-size: 1.1rem;
  } 
 }
 
+@media only screen and (max-width: 360px) {
+    .items {
+      font-size: 0.9rem;
+ } 
+}
 
 /* MOBILE - MIN-WIDTH 320px */
 
