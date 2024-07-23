@@ -441,6 +441,12 @@ h2 {
 /* 385px - MAX-WIDTH - MOBILE  */
 
 @media only screen and (max-width: 385px) {
+    #logo {
+      font-size: 1.3rem;
+ } 
+}
+
+@media only screen and (max-width: 385px) {
     .box-three {
       height: 950px;
  } 
