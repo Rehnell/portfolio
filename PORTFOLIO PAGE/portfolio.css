@@ -318,7 +318,7 @@ h1 {
 
 /* 1920px - Large Screens */
 
-@media only screen and (max-width: 361px) {
+@media only screen and (max-width: 1920px) {
     #logo {
       font-size: 1.4rem;
  } 
