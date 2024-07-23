@@ -316,22 +316,31 @@ h1 {
     bottom: 0;
 }
 
-/* 1920px - Large Screens */
+/* 1920px - LARGE SCREENS */
 
 @media only screen and (max-width: 1920px) {
     #logo {
-      font-size: 1.4rem;
+      font-size: 1.3rem;
  } 
 }
 
-@media only screen and (max-width: 361px) {
-    .items {
-      font-size: 1.2rem;
+@media only screen and (max-width: 1920px) {
+    .calculatortext {
+      padding-right: 800px;
  } 
 }
 
+@media only screen and (max-width: 1920px) {
+    .sandwichbartext {
+      padding-right: 800px;
+ } 
+}
 
-
+@media only screen and (max-width: 1920px) {
+    .filmtext {
+      padding-right: 800px;
+ } 
+}
 
 /* MOBILE - MIN-WIDTH 361px */
 
@@ -420,6 +429,8 @@ h1 {
       padding-left: 60px;
     }
 }
+
+
 
 
 
