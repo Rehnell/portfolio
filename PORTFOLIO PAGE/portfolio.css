@@ -331,14 +331,35 @@ h1 {
 }
 
 @media only screen and (max-width: 1920px) {
+    .calculatorimage {
+      height: 510px;
+      width: 680px;
+ } 
+}
+
+@media only screen and (max-width: 1920px) {
     .sandwichbartext {
       padding-right: 800px;
  } 
 }
 
 @media only screen and (max-width: 1920px) {
+    .sandwichbarimage {
+      height: 510px;
+      width: 680px;
+ } 
+}
+
+@media only screen and (max-width: 1920px) {
     .filmtext {
       padding-right: 800px;
+ } 
+}
+
+@media only screen and (max-width: 1920px) {
+    .filmbookingsystemimage {
+      height: 510px;
+      width: 680px;
  } 
 }
 
