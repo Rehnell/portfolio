@@ -1,173 +1,692 @@
+Portfolio CSS
+
 /* Google Fonts Import */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-/* General Styles */
+/* Root */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline: none;
+    font-family: 'poppins', sans-serif;
 }
 
+/* Body of Page Style */
+
+
 body {
-    background: #f8f8f8;
+    background: transparent;
+    font-family: 'Poppins';
 }
 
 /* Navbar */
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
     position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-.nav-links {
+    background-color: white;
+    border-bottom: 0.2rem;
     display: flex;
-    gap: 20px;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    list-style: none;
+    z-index: 300;
 }
 
-.nav-links a {
-    text-decoration: none;
+/* Logo */
+
+#logo {
+    margin-right: auto;
+    padding-left: 30px;
+    font-family: 'poppins';
     color: black;
+    font-size: 1.3rem;
     font-weight: bold;
-    transition: 0.3s;
-}
-
-.nav-links a:hover {
-    color: #ff6b6b;
-}
-
-/* Mobile Navbar */
-.hamburger {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 2rem;
+    align-items: center;
     cursor: pointer;
+    transition: 0.6s;
+    z-index: 300;
 }
 
-/* Hero Section */
-.hero {
-    text-align: center;
-    padding-top: 100px;
+/* Navbar Project Page Link */
+
+.items {
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 30px;
+    margin-left: 30px;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: black;
+    transition: 0.6s ease;
+    z-index: 300;
+}
+
+.items a {
+    color: black;
+    text-decoration: none;
+}
+
+  /* Style the current/active link */
+  .items a.active {
+    color: black;
+    background-color: transparent;
+  }
+
+/* Add a background color on mouse-over */
+.items a:hover {
+    background-color: transparent;
+    color: rgb(74, 74, 74);
+    text-decoration: none;
+    padding: 2rem;
+    transition: 0.6s ease;
+  }
+
+h1 {
     position: relative;
-}
-
-.hero h1 {
-    font-size: 5vw;
+    font-family: 'poppins';
+    font-size: 8rem;
+    font-weight: bold;
     color: white;
     position: absolute;
-    top: 50%;
+    top: 378px;
+    left: 486px;
+    object-fit: scale-down;
+    z-index: 203;
+}
+
+/* Section One */
+
+.box-two {
+    position: relative;
+    background-color: transparent;
+    height: 550px;
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+/* Sun Image */
+
+.circle {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin: -75px;
+    background: red;
+    top: 35%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    
+}
+  
+#sun {
+    background: #ffffe2;
+    box-shadow: 0 0 51700px #ffea00;
+    fill-opacity: 1;
+    z-index: 200;
 }
 
-.hero img {
-    max-width: 100%;
-    height: auto;
+/* Mountains Image */
+  
+.mountains {
+    width: 100%;
+    height: 864px;
+    object-fit: cover;
+    position: relative;
+    z-index: 199;
+    overflow-x: hidden;
+    overflow: hidden;
 }
 
-/* About Section */
-.about {
-    text-align: center;
-    padding: 40px 10%;
-    background: white;
+.man {
+    position: absolute;
+    overflow-x: hidden;
+    object-fit: cover;
+    z-index: 202;
+    top: 300px;
+    height: 400px;
+    width:  300px;
 }
 
-.about h2 {
-    font-size: 2rem;
+
+/* Moving Clouds image */
+
+.moving-clouds {
+    position: relative;
+    overflow-x: hidden;
+    top: -800px;
+    margin-left: -600px;
+    z-index: 201;
+    animation: moveClouds 15s linear infinite;
 }
 
-.about p {
-    font-size: 1.1rem;
-    margin-top: 10px;
+/* Section Two - About me & certifications */
+
+.box-three {
+    background-color: white;
+    height: 500px;
+    margin-left: 0;
+    padding-bottom: 54px;
+    margin-bottom: 0;
+  }
+ 
+h2 {
+    font-family: 'poppins';
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: black;
+    padding-left: 90px;
+    padding-top: 54px;
+
+  }
+  
+.aboutme1 {
+    padding-top: 21px;
+    padding-left: 90px;
+    padding-right: 5px;
+    color: black;
+    margin-right: 100px;
+  }
+
+.aboutme2 {
+    padding-top: 21px;
+    padding-left: 90px;
+    padding-right: 5px;
+    color: black;
+    margin-right: 90px;
+  }
+    
+.educationtitle {
+    font-family: 'poppins';
+    font-weight: bolder;
+    align-items: center;
+    font-size: 1.3rem;
+    color: black;
+    padding-left: 90px;
+    padding-top: 30px;
+}
+  
+.educationtext1 {
+    padding-top: 21px;
+    padding-left: 90px;
+    padding-right: 5px;
+    padding-bottom: 54px;
+    color: black;
+}
+  
+.educationtext2 {
+    padding-top: 21px;
+    padding-left: 90px;
+    padding-right: 5px;
+    margin-bottom: 50px;
+    color: black;
 }
 
-/* Tech Stack Section */
-.tech-stack {
-    text-align: center;
-    padding: 40px 10%;
-    background: #f6f6f6;
+.box-four {
+    position: relative;
+    background-color: #f6f6f6;
+    height: 450px; 
 }
 
-.tech-stack h3 {
-    font-size: 1.8rem;
+
+.title3 {
+    font-family: 'poppins';
+    font-weight: bolder;
+    align-items: center;
+    font-size: 1.3rem;
+    color: black;
+    padding-left: 90px;
+    padding-right: 30vw;
+    padding-top: 60px;
 }
 
-.icons img {
-    width: 50px;
-    height: auto;
-    margin: 10px;
+.jsicon {
+    height: 35px;
+    width: 35px;
 }
+
+.pythonicon {
+    height: 35px;
+    width: 35px;
+    margin-left: 88px
+}
+
+.htmlicon {
+    height: 35px;
+    width: 35px;
+}
+
+.cssicon {
+    height: 35px;
+    width: 35px;
+}
+
+.reacticon {
+    height: 35px;
+    width: 35px;
+}
+
+.languagesandtoolstext {
+    font-family: 'poppins';
+    color: black;
+    padding-top: 21px;
+    padding-left: 90px;
+    margin-right: 100px;
+}
+
 
 /* Footer */
-footer {
-    background: black;
+  
+.footer {
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    font-family: 'poppins';
+    font-size: 1rem;
     color: white;
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+    align-items: center;
+    padding-left: 90px;
+    margin-top: 90px;
+    bottom: 0;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
+/* Moving Clouds Animation */
 
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .hamburger {
-        display: block;
-    }
-
-    .hero h1 {
-        font-size: 6vw;
-    }
-
-    .about, .tech-stack {
-        padding: 20px 5%;
-    }
-
-    .icons img {
-        width: 40px;
-    }
+@keyframes moveClouds {
+    0% { left: 0px; }
+    100% { left: 70px; }
 }
 
-@media (max-width: 480px) {
-    .hero h1 {
-        font-size: 8vw;
-    }
+/* 2000px - MAX-WIDTH - DESKTOP & LAPTOPS */
 
-    .nav-links {
-        text-align: center;
-    }
+@media only screen and (max-width: 2000px) {
+    h1 {
+      font-size: 8rem;
+ } 
+}
 
-    .tech-stack {
-        padding: 20px 3%;
-    }
+/* 1024px - MAX-WIDTH - DESKTOP & LAPTOPS */
 
-    .icons img {
-        width: 35px;
-    }
+@media only screen and (max-width: 1024px) {
+    h1 {
+      font-size: 6rem;
+      top: 430px;
+      left: 340px;
+      z-index: 299;
+ } 
+}
+
+/* 922px - MAX-WIDTH - DESKTOP & LAPTOPS */
+
+@media only screen and (max-width: 992px) {
+    h1 {
+      font-size: 6rem;
+      top: 433px;
+      left: 250px;
+      z-index: 299;
+ } 
+}
+
+@media only screen and (max-width: 992px) {
+    .box-three {
+      height: 500px;
+ } 
+}
+
+@media only screen and (max-width: 992px) {
+    .box-four {
+      height: 500px;
+ } 
+}
+
+/* 821px - MAX-WIDTH - PORTRAIT TABLETS */
+
+@media only screen and (max-width: 821px) {
+    h1 {
+      font-size: 5rem;
+      top: 445px;
+ } 
+}
+
+@media only screen and (max-width: 821px) {
+    .box-three {
+      height: 540px;
+ } 
+}
+
+/* 641px - MAX-WIDTH PORTRAIT TABLETS AND LARGE PHONES */
+
+@media only screen and (max-width: 641px) {
+    h1 {
+      font-size: 4rem;
+      top: 470px;
+ } 
+}
+
+@media only screen and (max-width: 641px) {
+    .box-three {
+      height: 600px;
+ } 
 }
 
 
+
+/* 768px - MAX-WIDTH - LANDSCAPE TABLETS */
+
+@media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 5rem;
+      top: 448px;
+      left: 220px;
+      z-index: 299;
+ } 
+}
+
+@media only screen and (max-width: 768px) {
+    .box-three {
+      height: 550px;
+ } 
+}
+
+
+/* 601px - MIN-WIDTH PORTRAIT TABLETS AND LARGE PHONES */
+
+@media only screen and (max-width: 601px) {
+    h1 {
+      font-size: 4.5rem;
+      top: 460px;
+      left: 110px;
+      z-index: 299;
+ } 
+}
+
+@media only screen and (max-width: 601px) {
+    .box-three {
+      height: 600px;
+ } 
+}
+
+
+/* 413px - MAX-WIDTH - LARGE MOBILE  */
+
+@media only screen and (max-width: 413px) {
+    h1 {
+      font-size: 3rem;
+      top: 490px;
+      left: 90px;
+ } 
+}
+
+@media only screen and (max-width: 413px) {
+    .box-three {
+      height: 880px;
+ } 
+}
+
+@media only screen and (max-width: 413px) {
+    .box-four {
+      height: 650px;
+ } 
+}
+
+/* 385px - MAX-WIDTH - MOBILE  */
+
+@media only screen and (max-width: 385px) {
+    #logo {
+      font-size: 1.3rem;
+ } 
+}
+
+@media only screen and (max-width: 385px) {
+    .box-three {
+      height: 950px;
+ } 
+}
+
+@media only screen and (max-width: 385px) {
+    .box-four {
+      height: 750px;
+ } 
+}
+
+@media only screen and (max-width: 385px) {
+    h1 {
+      font-size: 3.5rem;
+      top: 480px;
+      left: 20px;
+      z-index: 299;
+ } 
+}
+
+@media only screen and (max-width: 385px) {
+    .educationtext1 {
+      padding-right: 60px;
+ } 
+}
+
+@media only screen and (max-width: 385px) {
+    .footer {
+      position: absolute;
+      margin-top: 100px;
+      bottom: 0;
+ } 
+}
+
+/* MOBILE - MIN-WIDTH 361px */
+
+@media only screen and (max-width: 361px) {
+    #logo {
+      font-size: 1.3rem;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .items {
+      font-size: 1.1rem;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    h1 {
+      font-size: 2.8rem;
+      top: 491px;
+      left: 50px;
+      z-index: 299;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    h2 {
+      font-size: 1.2rem;
+      padding-left: 30px;
+      padding-right: 20px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .aboutme1 {
+      padding-left: 30px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .aboutme2 {
+      padding-left: 30px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .educationtitle {
+      padding-left: 30px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .educationtext1 {
+      padding-left: 30px;
+      padding-right: 70px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .title3 {
+      padding-left: 30px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .languagesandtoolstext {
+      padding-left: 30px;
+ } 
+}
+
+
+@media only screen and (max-width: 361px) {
+    .pythonicon {
+      margin-left: 30px;
+      padding-right: 0px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .footer {
+      padding-left: 30px;
+      padding-right: 0px;
+ } 
+}
+
+
+@media only screen and (max-width: 361px) {
+    .box-three {
+      height: 900px;
+ } 
+}
+
+@media only screen and (max-width: 361px) {
+    .box-four {
+      height: 650px;
+ } 
+}  
+
+
+/* MOBILE - MIN-WIDTH 320px */
+
+@media only screen and (max-width: 320px) {
+    #logo {
+      font-size: 1.2rem;
+ } 
+}
+
+@media only screen and (max-width: 320px) {
+    .items {
+      font-size: 0.9rem;
+ } 
+}
+
+@media only screen and (max-width: 320px) {
+    h1 {
+      font-size: 2.8rem;
+      top: 491px;
+      left: 20px;
+      z-index: 299;
+ } 
+}
+
+@media only screen and (max-width: 320px) {
+    h2 {
+      font-size: 1.2rem;
+      padding-left: 40px;
+ } 
+}
+
+@media only screen and (max-width: 320px) {
+    .aboutme1 {
+      padding-left: 40px;
+      padding-right: 0;
+ } 
+}
+
+@media only screen and (max-width: 320px) {
+    .aboutme2 {
+      padding-left: 40px;
+      padding-right: 0;
+ } 
+}
+
+@media only screen and (max-width: 320px) {
+    .educationtitle {
+      padding-left: 40px;
+      padding-right: 0;
+ } 
+}
+
+@media only screen and (max-width: 320px) {
+    .educationtext1 {
+      padding-left: 40px;
+      padding-right: 20px;
+ } 
+}
+
+@media only screen and (max-width: 320px) {
+    .title3 {
+      padding-left: 40px;
+      padding-right: 0px;
+ } 
+}
+
+@media only screen and (max-width: 320px) {
+    .languagesandtoolstext {
+      padding-left: 40px;
+      padding-right: 0px;
+ } 
+}
+
+@media only screen and (max-width: 320px) {
+    .title3 {
+      padding-left: 40px;
+      padding-right: 0px;
+ } 
+}
+
+@media only screen and (max-width: 320px) {
+    .title3 {
+      padding-left: 40px;
+      padding-right: 0px;
+ } 
+}
+
+@media only screen and (max-width: 320px) {
+    .pythonicon {
+      margin-left: 40px;
+      padding-right: 0px;
+ } 
+}
+
+@media only screen and (max-width: 320px) {
+    .box-four {
+      height: 750px;
+ } 
+}
+
+
+@media only screen and (max-width: 320px) {
+    .footer {
+      padding-left: 40px;
+      padding-right: 0px;
+ } 
+}
