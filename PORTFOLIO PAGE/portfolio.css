@@ -141,7 +141,7 @@ h1 {
 .calculatorimage {
     display: flex;
     position: relative;
-    object-fit: cover:
+    object-fit: cover;
     padding-left: 144px;
     margin-top: 30px;
     height: 310px;
