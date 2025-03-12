@@ -465,7 +465,11 @@ h1 {
     .title5 {
         padding-left: 60px;
     }
-    
+
+    .title6 
+        padding-left: 60px;
+    }
+
     .calculatortitle {
       padding-left: 60px;
     }
@@ -525,6 +529,23 @@ h1 {
     .githubfilmbookingsystem {
       padding-left: 60px;
     }
+
+    .weatherapptitle {
+      padding-left: 60px;
+    }
+    .weatherapptext {
+      padding-left: 60px;
+    }
+    .weatherapptext2 {
+      padding-left: 60px;
+    }
+    
+    .weatherappimage {
+      padding-left: 60px;
+      height: 40px;
+      width: 120px;
+    }
+
 }
 
 
