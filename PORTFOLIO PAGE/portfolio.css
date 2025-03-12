@@ -301,7 +301,7 @@ h1 {
     min-width: 360px; /* Add this line to keep same height on smaller screens */
 }
 
-.title5 {
+.title6 {
     font-family: 'poppins';
     align-items: center;
     font-weight: bolder;
@@ -420,6 +420,13 @@ h1 {
  } 
 }
 
+@media only screen and (max-width: 1920px) {
+    .weatherappimage {
+      height: 510px;
+      width: 680px;
+ } 
+}
+
 /* MOBILE - MIN-WIDTH 385px */
 @media only screen and (max-width: 385px) {
     #logo {
@@ -454,6 +461,11 @@ h1 {
     .title4 {
       padding-left: 60px;
     }
+
+    .title5 {
+        padding-left: 60px;
+    }
+    
     .calculatortitle {
       padding-left: 60px;
     }
