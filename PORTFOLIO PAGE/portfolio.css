@@ -312,7 +312,7 @@ h1 {
     color: black;
 }
 
-.filmtext {
+.weatherapptext {
     font-family: 'poppins';
     color: black;
     padding-top: 14px;
@@ -321,13 +321,19 @@ h1 {
     padding-bottom: 21px;
 }
 
-.githubfilmbookingsystem{
+.github_weather_app_link {
     margin-top: 35px;
     padding-left: 144px;
     color: black;
 }
 
-.languagesandtoolstext3 {
+.website_weather_app_link {
+    margin-top: 35px;
+    padding-left: 144px;
+    color: black;
+}
+
+.languagesandtoolstext2 {
     font-family: 'poppins';
     font-weight: bolder;
     align-items: center;
