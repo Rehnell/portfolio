@@ -503,6 +503,12 @@ h3 {
 /* 385px - MAX-WIDTH - MOBILE  */
 
 @media only screen and (max-width: 385px) {
+  .box1 {
+    height: 35vh;
+} 
+}
+
+@media only screen and (max-width: 385px) {
   #logo {
     font-size: 1.2rem;
 } 
