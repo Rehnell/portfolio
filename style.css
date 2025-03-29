@@ -504,7 +504,13 @@ h3 {
 
 @media only screen and (max-width: 385px) {
   #logo {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  #logo {
+    items: 0.9rem;
 } 
 }
 
