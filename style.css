@@ -209,7 +209,7 @@ h1 {
   height: auto;  /* Adjust height to maintain aspect ratio */
   top: 0;
   left: -10px; /* Start cloud off-screen */
-  z-index: 1;
+  z-index: 200;
   animation: moveClouds 15s linear infinite;
   object-fit: contain; /* Ensures the image maintains its aspect ratio */
   object-position: center; /* Centers the cloud image */
