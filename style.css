@@ -522,7 +522,7 @@ h3 {
 
 @media only screen and (max-width: 385px) {
   h1 {
-    padding-left: 30px;;
+    height: 30px;
 } 
 }
 
