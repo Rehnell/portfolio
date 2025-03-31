@@ -43,7 +43,7 @@ body {
   position: relative; /* Ensure absolute positioning of elements within it */
   overflow: hidden; /* Prevents overflow of the background image */
   width: 100%;
-  height: 55vh; /* Set a dynamic height based on the viewport height */
+  height: 386px; /* Set a dynamic height based on the viewport height */
   background-color: white; /* You can remove this or change as needed */
   display: flex;
   
