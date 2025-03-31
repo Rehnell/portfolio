@@ -528,6 +528,13 @@ h3 {
 }
 
 @media only screen and (max-width: 385px) {
+  h2 {
+    padding-left: 30px;
+} 
+}
+
+
+@media only screen and (max-width: 385px) {
   .box-three {
     height: 950px;
 } 
