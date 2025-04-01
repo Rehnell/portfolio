@@ -24,6 +24,7 @@ body {
 
 /* Page Sections */
 .container {
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   gap: 0; /* Ensures no extra space between elements */
