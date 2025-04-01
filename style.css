@@ -518,6 +518,7 @@ h3 {
 @media only screen and (max-width: 385px) {
   h1 {
     height: 60px;
+    font-size: 2rem:
     padding-left: 10px;
 } 
 }
