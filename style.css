@@ -496,6 +496,13 @@ h3 {
 /* 385px - MAX-WIDTH - MOBILE  */
 
 @media only screen and (max-width: 385px) {
+  .box {
+    height: 350px;
+} 
+}
+
+
+@media only screen and (max-width: 385px) {
   .box1 {
     height: 100px;
 } 
