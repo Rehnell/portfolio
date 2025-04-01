@@ -225,10 +225,9 @@ h2 {
 
 .aboutme1 {
   font-size: 1rem;
-  color: black;
+  color: black
   max-width: 100%; /* Prevents overflow */
   padding: 20px;
-  margin: auto; /* Centers within the box */
   box-sizing: border-box;
 }
 
