@@ -546,6 +546,12 @@ h3 {
 } 
 }
 
+@media only screen and (max-width: 385px) {
+  .aboutme2 {
+    padding-left: 30px;
+} 
+}
+
 
 @media only screen and (max-width: 385px) {
   .box-three {
