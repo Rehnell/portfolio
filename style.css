@@ -58,14 +58,12 @@ body {
   flex-direction: column;
   padding: 20px;
   box-sizing: border-box;
-  border: 1px solid #ededed;
   margin-bottom: 0; 
 }
 
 #box3 {
   background-color: #ededed;
   margin-top: 0; /* Remove any unwanted space */
-  border: 1px solid #ededed;
 }
 
 /* Fix navbar positioning */
