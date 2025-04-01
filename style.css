@@ -56,7 +56,6 @@ body {
   min-height: 55vh; /* Ensures it doesn't collapse */
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 20px;
   box-sizing: border-box;
   border: 1px solid #ededed;
