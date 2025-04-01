@@ -562,6 +562,13 @@ h3 {
 }
 
 @media only screen and (max-width: 385px) {
+  .languagesandtoolstext {
+    padding-left: 30px;
+} 
+}
+
+
+@media only screen and (max-width: 385px) {
   .box-four {
     height: 750px;
 } 
