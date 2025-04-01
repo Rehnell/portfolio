@@ -548,6 +548,11 @@ h3 {
 } 
 }
 
+@media only screen and (max-width: 385px) {
+  h3 {
+    padding-left: 30px;
+} 
+}
 
 @media only screen and (max-width: 385px) {
   .box-three {
