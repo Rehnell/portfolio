@@ -69,10 +69,6 @@ body {
   border: 1px solid #ededed;
 }
 
-#box4 {
-  background-color: white;
-}
-
 /* Fix navbar positioning */
 nav {
   position: fixed;
