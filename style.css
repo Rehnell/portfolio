@@ -62,6 +62,7 @@ body {
 }
 
 #box3 {
+  height: 386px;
   background-color: #ededed;
   margin-top: 0; /* Remove any unwanted space */
 }
