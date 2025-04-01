@@ -517,6 +517,14 @@ h3 {
 } 
 }
 
+
+@media only screen and (max-width: 385px) {
+  .box2 {
+    height: 500px;
+} 
+}
+
+
 @media only screen and (max-width: 385px) {
   h2 {
     padding-left: 30px;
