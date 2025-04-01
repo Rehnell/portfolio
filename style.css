@@ -235,7 +235,6 @@ h2 {
   font-size: 1rem;
   color: black;
   max-width: 100%; /* Prevents overflow */
-  width: calc(100% - 180px); /* Adjusts width dynamically */
   padding: 20px;
   box-sizing: border-box;
 }
