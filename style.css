@@ -598,6 +598,9 @@ h3 {
 @media only screen and (max-width: 385px) {
   .languagesandtoolstext {
     padding-left: 30px;
+    max-width: 100%; /* Prevents overflow */
+    padding: 20px;
+    box-sizing: border-box;
 } 
 }
 
