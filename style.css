@@ -37,6 +37,7 @@ body {
   font-size: 8em;
   margin: 0; /* Ensure no extra margin */
   height: 550px;
+  z-index: 299;
 }
 
 #box1 {
