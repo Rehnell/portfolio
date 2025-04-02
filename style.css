@@ -619,7 +619,7 @@ h3 {
   .footer {
     position: absolute;
     margin-top: 100px;
-    bottom: 0;
+    bottom: fixed;
 } 
 }
 
