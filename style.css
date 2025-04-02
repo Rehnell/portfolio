@@ -319,8 +319,8 @@ h3 {
     color: white;
     text-align: center;
     align-items: center;
-    padding-left: 90px;
-    margin-top: 90px;
+    margin: 0;
+    padding: 0;
     bottom: fixed;
 }
 
