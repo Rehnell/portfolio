@@ -502,8 +502,8 @@ h3 {
 @media only screen and (max-width: 385px) {
   .circle {
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     margin: -75px;
     background: red;
     top: 35%;
