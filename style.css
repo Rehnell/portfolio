@@ -42,7 +42,7 @@ body {
 #box1 {
   position: relative;
   width: 100%;
-  height: 600px, auto; /* Adjust based on content */
+  height: 400px, auto; /* Adjust based on content */
   display: flex;
   align-items: flex-end; /* Align content to bottom */
   overflow: hidden;
