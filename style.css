@@ -62,6 +62,10 @@ body {
 #box3 {
   height: 386px;
   background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
 }
 
