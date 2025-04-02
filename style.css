@@ -584,7 +584,7 @@ h3 {
 }
 
 @media only screen and (max-width: 385px) {
-  #box-three {
+  #box3 {
     height: 650px;
 } 
 }
