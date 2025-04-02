@@ -46,6 +46,7 @@ body {
   height: 386px; /* Set a dynamic height based on the viewport height */
   background-color: white; /* You can remove this or change as needed */
   display: flex;
+  margin-bottom: 0;
   
 }
 
