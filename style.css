@@ -321,7 +321,7 @@ h3 {
     align-items: center;
     margin: 0;
     padding: 0;
-    bottom: 0;
+    bottom: fixed;
 }
 
 .footertext {
