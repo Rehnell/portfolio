@@ -510,6 +510,15 @@ h3 {
 }
 
 @media only screen and (max-width: 385px) {
+  .moving-clouds {
+    top: 40px;
+} 
+}
+
+
+
+
+@media only screen and (max-width: 385px) {
   h1 {
     height: 60px;
     font-size: rem:
@@ -775,3 +784,4 @@ h3 {
     padding-right: 0px;
 } 
 }
+
