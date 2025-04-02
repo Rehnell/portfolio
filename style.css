@@ -488,12 +488,6 @@ h3 {
 }
 
 @media only screen and (max-width: 385px) {
-  .mountains {
-    height: 400px;
-} 
-}
-
-@media only screen and (max-width: 385px) {
   #logo {
     font-size: 1.2rem;
 } 
@@ -505,13 +499,24 @@ h3 {
 } 
 }
 
+
+@media only screen and (max-width: 385px) {
+  .mountains {
+    height: 400px;
+} 
+}
+
 @media only screen and (max-width: 385px) {
   .moving-clouds {
     top: 90px;
 } 
 }
 
-
+@media only screen and (max-width: 385px) {
+  .man {
+    top: 80px;
+} 
+}
 
 
 @media only screen and (max-width: 385px) {
