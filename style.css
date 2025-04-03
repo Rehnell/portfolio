@@ -43,7 +43,7 @@ body {
 #box1 {
   position: relative;
   width: 100%;
-  height: 375px; /* Adjust based on content */
+  height: 400px; /* Adjust based on content */
   display: flex;
   align-items: flex-end; /* Align content to bottom */
   overflow: hidden;
@@ -506,8 +506,8 @@ h3 {
 /* 385px - MAX-WIDTH - MOBILE  */
 
 @media only screen and (max-width: 385px) {
-  .box1 {
-    height: 100px;
+  #box1 {
+    height: 375px;
 } 
 }
 
