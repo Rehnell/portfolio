@@ -70,6 +70,17 @@ body {
   margin-top: 0; /* Remove any unwanted space */
 }
 
+/* box to contain Tech stack picture icons */
+
+.inner-box {
+   width: 200px;
+   height: 40px;
+   background-color: black;
+   padding: 30px;
+   margin-top: 10px;
+   align-items center;
+}
+
 /* Fix navbar positioning */
 nav {
   position: fixed;
