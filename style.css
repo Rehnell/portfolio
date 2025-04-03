@@ -78,7 +78,7 @@ body {
    background-color: black;
    padding: 30px;
    margin-top: 10px;
-   align-items center;
+   align-items: center;
 }
 
 /* Fix navbar positioning */
