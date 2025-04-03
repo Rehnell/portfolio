@@ -158,76 +158,10 @@ nav {
 
 /* Box 1 Section */
 
-/* Sun */
-.circle {
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  margin: -75px;
-  background: red;
-  top: 35%;
-  left: 20%;
-  border-radius: 50%;
-  z-index: 2;
-}
-
-#sun {
-  background: #ffffe2;
-  box-shadow: 0 0 51700px #ffea00;
-  fill-opacity: 1;
-  z-index: 3;
-}
-
-
-h1 {
-  position: absolute;
-  font-family: 'Poppins', sans-serif;
-  font-size: 8rem;
-  font-weight: bold;
-  color: white;
-  top: 50%;
-  left: 70%;
-  transform: translate(-50%, -50%); /* Centers text */
-  text-align: center;
-  z-index: 203;
-  white-space: nowrap; /* Prevents breaking on smaller screens */
-}
 
 
 
-/* Mountains Image */
-.mountains {
-  position: absolute;
-  bottom: 0; /* Ensures it aligns with the bottom of #box1 */
-  width: 100%;
-  height: auto; /* Keeps the aspect ratio */
-  object-fit: cover;
-}
 
-
-/* Man Image */
-.man {
-  position: absolute; /* Keep the image absolutely positioned within #box1 */
-  object-fit: contain; /* Maintains aspect ratio */
-  z-index: 2; /* Ensures it appears on top of the background image */
-  top: 20%; /* Adjust this value based on your design */
-  width: 25%; /* Adjust width relative to container size */
-  height: auto; /* Maintain aspect ratio */
-  max-width: 300px; /* Prevents the image from growing too large */
-}
-
-/* Moving Clouds image */
-.moving-clouds {
-  position: absolute;
-  width: 100%;
-  height: auto;  /* Adjust height to maintain aspect ratio */
-  top: 0;
-  left: -10px; /* Start cloud off-screen */
-  z-index: 200;
-  animation: moveClouds 15s linear infinite;
-  object-fit: contain; /* Ensures the image maintains its aspect ratio */
-  object-position: center; /* Centers the cloud image */
-}
 
 /* Box 2 Section */
 h2 {
@@ -242,31 +176,6 @@ h2 {
 
 }
 
-.aboutme1 {
-  font-size: 1rem;
-  color: black;
-  max-width: 100%; /* Prevents overflow */
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.aboutme2 {
-  font-size: 1rem;
-  color: black;
-  max-width: 100%; /* Prevents overflow */
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-/* Box 3 Section */
-.languagesandtoolstext {
-  font-size: 1rem;
-  color: black;
-  text-align: left;
-  padding-left: 110px;
-  box-sizing: border-box;
-}
-
 h3 {
   text-align: left;
   font-family: 'poppins';
@@ -276,52 +185,16 @@ h3 {
   padding-left: 110px;
   padding-top: 54px;
 }
-  
-.educationtext1 {
-  font-size: 1rem;
-  color: black;
+
+h4 {
   text-align: left;
-  max-width: 100%; /* Prevents overflow */
-  padding: 20px;
-  box-sizing: border-box;
+  font-family: 'poppins';
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: black;
+  padding-left: 40px;
+  padding-top: 54px;
 }
-  
-  h4 {
-    text-align: left;
-    font-family: 'poppins';
-    font-weight: bolder;
-    font-size: 1.3rem;
-    color: black;
-    padding-left: 40px;
-    padding-top: 54px;
-  }
-
-  .jsicon {
-    height: 35px;
-    width: 35px;
-    z-index: 1000;
-}
-
-.pythonicon {
-    height: 35px;
-    width: 35px;
-}
-
-.htmlicon {
-    height: 35px;
-    width: 35px;
-}
-
-.cssicon {
-    height: 35px;
-    width: 35px;
-}
-
-.reacticon {
-    height: 35px;
-    width: 35px;
-}
-
 
 /* Footer */
 .footer {
@@ -360,147 +233,6 @@ h3 {
 
 /* MEDIA QUERIES */
 
-/* Animation for moving clouds */
-@keyframes moveClouds {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(70px); }
-}
-
-@media (max-width: 1024px) {
-  .moving-clouds {
-    max-width: 900px; /* Reduce size on tablets */
-  }
-}
-
-@media (max-width: 768px) {
-  .moving-clouds {
-    max-width: 700px; /* Reduce size on mobile */
-  }
-}
-
-@media (max-width: 480px) {
-  .moving-clouds {
-    max-width: 500px; /* Reduce size for smaller screens */
-  }
-}
-
-/* Mountain Pic */
-@media (max-width: 1024px) {
-  .mountains {
-    max-height: 600px; /* Reduce height for tablets */
-  }
-}
-
-@media (max-width: 768px) {
-  .mountains {
-    max-height: 400px; /* Reduce height for mobile screens */
-  }
-}
-
-@media (max-width: 480px) {
-  .mountains {
-    max-height: 300px; /* Reduce height for very small screens */
-  }
-}
-
-/* Man pic */
-@media (max-width: 1024px) {
-  .man {
-    width: 30%; /* Slightly increase width on tablets */
-    max-width: 250px;
-    top: 250px; /* Adjust top for better positioning */
-  }
-}
-
-/* Smaller screens (mobiles) adjustments */
-@media (max-width: 768px) {
-  .man {
-    width: 40%; /* Increase width for mobile screens */
-    max-width: 200px;
-    top: 200px; /* Adjust top for smaller devices */
-  }
-}
-
-/* Very small screens (portrait mobile) */
-@media (max-width: 480px) {
-  .man {
-    width: 50%; /* Increase width for very small screens */
-    max-width: 150px;
-    top: 150px; /* Adjust top further to keep the image in view */
-  }
-}
-
-/* 2000px - MAX-WIDTH - DESKTOP & LAPTOPS */
-
-
-/* 1024px - MAX-WIDTH - DESKTOP & LAPTOPS */
-
-/* 922px - MAX-WIDTH - DESKTOP & LAPTOPS */
-
-
-@media only screen and (max-width: 992px) {
-  .box-three {
-    height: 500px;
-} 
-}
-
-@media only screen and (max-width: 992px) {
-  .box-four {
-    height: 500px;
-} 
-}
-
-/* 821px - MAX-WIDTH - PORTRAIT TABLETS */
-
-@media only screen and (max-width: 821px) {
-  .box-three {
-    height: 540px;
-} 
-}
-
-/* 641px - MAX-WIDTH PORTRAIT TABLETS AND LARGE PHONES */
-
-
-@media only screen and (max-width: 641px) {
-  .box-three {
-    height: 600px;
-} 
-}
-
-
-
-/* 768px - MAX-WIDTH - LANDSCAPE TABLETS */
-
-
-@media only screen and (max-width: 768px) {
-  .box-three {
-    height: 550px;
-} 
-}
-
-
-/* 601px - MIN-WIDTH PORTRAIT TABLETS AND LARGE PHONES */
-
-@media only screen and (max-width: 601px) {
-  .box-three {
-    height: 600px;
-} 
-}
-
-
-/* 413px - MAX-WIDTH - LARGE MOBILE  */
-
-@media only screen and (max-width: 413px) {
-  .box-three {
-    height: 880px;
-} 
-}
-
-@media only screen and (max-width: 413px) {
-  .box-four {
-    height: 650px;
-} 
-}
 
 /* 385px - MAX-WIDTH - MOBILE  */
 
@@ -661,50 +393,6 @@ h3 {
 } 
 }
 
-@media only screen and (max-width: 361px) {
-  .aboutme1 {
-    padding-left: 30px;
-} 
-}
-
-@media only screen and (max-width: 361px) {
-  .aboutme2 {
-    padding-left: 30px;
-} 
-}
-
-@media only screen and (max-width: 361px) {
-  .educationtitle {
-    padding-left: 30px;
-} 
-}
-
-@media only screen and (max-width: 361px) {
-  .educationtext1 {
-    padding-left: 30px;
-    padding-right: 70px;
-} 
-}
-
-@media only screen and (max-width: 361px) {
-  .title3 {
-    padding-left: 30px;
-} 
-}
-
-@media only screen and (max-width: 361px) {
-  .languagesandtoolstext {
-    padding-left: 30px;
-} 
-}
-
-
-@media only screen and (max-width: 361px) {
-  .pythonicon {
-    margin-left: 30px;
-    padding-right: 0px;
-} 
-}
 
 @media only screen and (max-width: 361px) {
   .footer {
@@ -745,34 +433,6 @@ h3 {
   h2 {
     font-size: 1.2rem;
     padding-left: 40px;
-} 
-}
-
-@media only screen and (max-width: 320px) {
-  .aboutme1 {
-    padding-left: 40px;
-    padding-right: 0;
-} 
-}
-
-@media only screen and (max-width: 320px) {
-  .aboutme2 {
-    padding-left: 40px;
-    padding-right: 0;
-} 
-}
-
-@media only screen and (max-width: 320px) {
-  .educationtitle {
-    padding-left: 40px;
-    padding-right: 0;
-} 
-}
-
-@media only screen and (max-width: 320px) {
-  .educationtext1 {
-    padding-left: 40px;
-    padding-right: 20px;
 } 
 }
 
