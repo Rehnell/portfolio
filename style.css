@@ -54,7 +54,7 @@ body {
 
 
 #box2 {
-  background-color: white;
+  background-color: black;
   display: flex;
   flex-direction: column;
   padding: 20px;
