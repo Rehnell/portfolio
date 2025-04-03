@@ -1,0 +1,827 @@
+/* Google Fonts Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/* Root */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  outline: none;
+  font-family: 'poppins', sans-serif;
+}
+
+/* Body of Page Style */
+body {
+  background: transparent;
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page Sections */
+.container {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 0; /* Ensures no extra space between elements */
+}
+
+
+.box {
+  width: 100%;
+  font-size: 8em;
+  margin: 0; /* Ensure no extra margin */
+  height: 550px;
+  z-index: 299;
+}
+
+#box1 {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjust based on content */
+  display: flex;
+  align-items: flex-end; /* Align content to bottom */
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+
+
+#box2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 0; /* No space above */
+}
+
+#box3 {
+  height: 386px;
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 0; /* Remove any unwanted space */
+}
+
+/* box to contain Tech stack picture icons */
+
+.inner-box {
+   display: flex; /* Ensures the images stay in a row */
+   justify-content: left; /* Centers images */
+   flex-wrap: wrap; /* Allows wrapping if needed */
+   gap: 10px; /* Adds spacing between icons */
+   width: 600px, auto, fit-content;
+   height: 50px, auto;
+   background-color: transparent;
+   padding: 30px;
+   margin-top: 10px;
+   align-items: center;
+}
+
+/* Fix navbar positioning */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full width */
+  background-color: white;
+  z-index: 300;
+}
+
+/* Ensure navbar takes up full width */
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 65px; /* Adjust if needed */
+  padding: 0 30px;
+  list-style: none;
+  width: 100%;
+}
+
+/* Logo */
+#logo {
+    margin-right: auto;
+    padding-left: 30px;
+    font-family: 'poppins';
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.6s;
+    z-index: 300;
+}
+
+/* Navbar Project Page Link */
+.items {
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 30px;
+    margin-left: 30px;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: black;
+    transition: 0.6s ease;
+    z-index: 300;
+}
+
+.items a {
+    color: black;
+    text-decoration: none;
+}
+
+  /* Style the current/active link */
+  .items a.active {
+    color: black;
+    background-color: transparent;
+  }
+
+/* Add a background color on mouse-over */
+.items a:hover {
+    background-color: transparent;
+    color: rgb(74, 74, 74);
+    text-decoration: none;
+    padding: 2rem;
+    transition: 0.6s ease;
+  }
+
+/* Box 1 Section */
+
+/* Sun */
+.circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin: -75px;
+  background: red;
+  top: 35%;
+  left: 20%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+#sun {
+  background: #ffffe2;
+  box-shadow: 0 0 51700px #ffea00;
+  fill-opacity: 1;
+  z-index: 3;
+}
+
+
+h1 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-size: 8rem;
+  font-weight: bold;
+  color: white;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%); /* Centers text */
+  text-align: center;
+  z-index: 203;
+  white-space: nowrap; /* Prevents breaking on smaller screens */
+}
+
+
+
+/* Mountains Image */
+.mountains {
+  position: absolute;
+  bottom: 0; /* Ensures it aligns with the bottom of #box1 */
+  width: 100%;
+  height: auto; /* Keeps the aspect ratio */
+  object-fit: cover;
+}
+
+
+/* Man Image */
+.man {
+  position: absolute; /* Keep the image absolutely positioned within #box1 */
+  object-fit: contain; /* Maintains aspect ratio */
+  z-index: 2; /* Ensures it appears on top of the background image */
+  top: 20%; /* Adjust this value based on your design */
+  width: 25%; /* Adjust width relative to container size */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 300px; /* Prevents the image from growing too large */
+}
+
+/* Moving Clouds image */
+.moving-clouds {
+  position: absolute;
+  width: 100%;
+  height: auto;  /* Adjust height to maintain aspect ratio */
+  top: 0;
+  left: -10px; /* Start cloud off-screen */
+  z-index: 200;
+  animation: moveClouds 15s linear infinite;
+  object-fit: contain; /* Ensures the image maintains its aspect ratio */
+  object-position: center; /* Centers the cloud image */
+}
+
+/* Box 2 Section */
+h2 {
+  text-align: left;
+  padding-left: 110px;
+  font-family: 'poppins';
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: black;
+  padding-right: 100px;
+  padding-top: 54px;
+
+}
+
+.aboutme1 {
+  font-size: 1rem;
+  color: black;
+  max-width: 100%; /* Prevents overflow */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.aboutme2 {
+  font-size: 1rem;
+  color: black;
+  max-width: 100%; /* Prevents overflow */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Box 3 Section */
+.languagesandtoolstext {
+  font-size: 1rem;
+  color: black;
+  text-align: left;
+  padding-left: 110px;
+  box-sizing: border-box;
+}
+
+h3 {
+  text-align: left;
+  font-family: 'poppins';
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: black;
+  padding-left: 110px;
+  padding-top: 54px;
+}
+  
+.educationtext1 {
+  font-size: 1rem;
+  color: black;
+  text-align: left;
+  max-width: 100%; /* Prevents overflow */
+  padding: 20px;
+  box-sizing: border-box;
+}
+  
+  h4 {
+    text-align: left;
+    font-family: 'poppins';
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: black;
+    padding-left: 40px;
+    padding-top: 54px;
+  }
+
+  .jsicon {
+    height: 35px;
+    width: 35px;
+    z-index: 1000;
+}
+
+.pythonicon {
+    height: 35px;
+    width: 35px;
+}
+
+.htmlicon {
+    height: 35px;
+    width: 35px;
+}
+
+.cssicon {
+    height: 35px;
+    width: 35px;
+}
+
+.reacticon {
+    height: 35px;
+    width: 35px;
+}
+
+
+/* Footer */
+.footer {
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    font-family: 'poppins';
+    font-size: 0.9rem;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    bottom: fixed;
+}
+
+.footertext {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: "poppins";
+    font-size: 0.9em;
+    color: white;
+    text-align: center;
+  }
+
+  .footer_portfolio_text {
+    padding-left: 5px;
+    margin-top: 20px;
+    font-family: "poppins";
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+/* Animation for moving clouds */
+@keyframes moveClouds {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(70px); }
+}
+
+@media (max-width: 1024px) {
+  .moving-clouds {
+    max-width: 900px; /* Reduce size on tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .moving-clouds {
+    max-width: 700px; /* Reduce size on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .moving-clouds {
+    max-width: 500px; /* Reduce size for smaller screens */
+  }
+}
+
+/* Mountain Pic */
+@media (max-width: 1024px) {
+  .mountains {
+    max-height: 600px; /* Reduce height for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .mountains {
+    max-height: 400px; /* Reduce height for mobile screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .mountains {
+    max-height: 300px; /* Reduce height for very small screens */
+  }
+}
+
+/* Man pic */
+@media (max-width: 1024px) {
+  .man {
+    width: 30%; /* Slightly increase width on tablets */
+    max-width: 250px;
+    top: 250px; /* Adjust top for better positioning */
+  }
+}
+
+/* Smaller screens (mobiles) adjustments */
+@media (max-width: 768px) {
+  .man {
+    width: 40%; /* Increase width for mobile screens */
+    max-width: 200px;
+    top: 200px; /* Adjust top for smaller devices */
+  }
+}
+
+/* Very small screens (portrait mobile) */
+@media (max-width: 480px) {
+  .man {
+    width: 50%; /* Increase width for very small screens */
+    max-width: 150px;
+    top: 150px; /* Adjust top further to keep the image in view */
+  }
+}
+
+/* 2000px - MAX-WIDTH - DESKTOP & LAPTOPS */
+
+
+/* 1024px - MAX-WIDTH - DESKTOP & LAPTOPS */
+
+/* 922px - MAX-WIDTH - DESKTOP & LAPTOPS */
+
+
+@media only screen and (max-width: 992px) {
+  .box-three {
+    height: 500px;
+} 
+}
+
+@media only screen and (max-width: 992px) {
+  .box-four {
+    height: 500px;
+} 
+}
+
+/* 821px - MAX-WIDTH - PORTRAIT TABLETS */
+
+@media only screen and (max-width: 821px) {
+  .box-three {
+    height: 540px;
+} 
+}
+
+/* 641px - MAX-WIDTH PORTRAIT TABLETS AND LARGE PHONES */
+
+
+@media only screen and (max-width: 641px) {
+  .box-three {
+    height: 600px;
+} 
+}
+
+
+
+/* 768px - MAX-WIDTH - LANDSCAPE TABLETS */
+
+
+@media only screen and (max-width: 768px) {
+  .box-three {
+    height: 550px;
+} 
+}
+
+
+/* 601px - MIN-WIDTH PORTRAIT TABLETS AND LARGE PHONES */
+
+@media only screen and (max-width: 601px) {
+  .box-three {
+    height: 600px;
+} 
+}
+
+
+/* 413px - MAX-WIDTH - LARGE MOBILE  */
+
+@media only screen and (max-width: 413px) {
+  .box-three {
+    height: 880px;
+} 
+}
+
+@media only screen and (max-width: 413px) {
+  .box-four {
+    height: 650px;
+} 
+}
+
+/* 385px - MAX-WIDTH - MOBILE  */
+
+@media only screen and (max-width: 385px) {
+  .box1 {
+    height: 100px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  #logo {
+    font-size: 1.2rem;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  .items {
+    font-size: 0.9rem;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  .circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin: -75px;
+    background: red;
+    top: 55%;
+    left: 60%;
+    border-radius: 50%;
+    z-index: 2;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  .mountains {
+    height: 400px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  .moving-clouds {
+    top: 120px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  .man {
+    top: 280px;
+} 
+}
+
+
+@media only screen and (max-width: 385px) {
+  h1 {
+    height: 60px;
+    font-size: 3.5rem;
+    top: 50%;
+    left: 50%; 
+    
+} 
+}
+
+
+@media only screen and (max-width: 385px) {
+  #box2 {
+    height: 730px;
+} 
+}
+
+
+@media only screen and (max-width: 385px) {
+  h2 {
+    padding-left: 30px;
+    font-size: 1.2rem;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  .aboutme1 {
+    padding-left: 30px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  .aboutme2 {
+    padding-left: 30px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  h3 {
+    padding-left: 30px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  .educationtext1 {
+    padding-left: 30px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  #box3 {
+    height: 650px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  h4 {
+    padding-left: 30px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  .languagesandtoolstext {
+    padding-left: 30px;
+    max-width: 100%; /* Prevents overflow */
+    padding: 20px;
+    box-sizing: border-box;
+} 
+}
+
+
+@media only screen and (max-width: 385px) {
+  .educationtext1 {
+    padding-right: 60px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  .footer {
+    position: absolute;
+    bottom: 0;
+} 
+}
+
+/* MOBILE - MIN-WIDTH 361px */
+
+@media only screen and (max-width: 361px) {
+  #logo {
+    font-size: 1.3rem;
+} 
+}
+
+@media only screen and (max-width: 361px) {
+  .items {
+    font-size: 1.1rem;
+} 
+}
+
+@media only screen and (max-width: 361px) {
+  h2 {
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-right: 20px;
+} 
+}
+
+@media only screen and (max-width: 361px) {
+  .aboutme1 {
+    padding-left: 30px;
+} 
+}
+
+@media only screen and (max-width: 361px) {
+  .aboutme2 {
+    padding-left: 30px;
+} 
+}
+
+@media only screen and (max-width: 361px) {
+  .educationtitle {
+    padding-left: 30px;
+} 
+}
+
+@media only screen and (max-width: 361px) {
+  .educationtext1 {
+    padding-left: 30px;
+    padding-right: 70px;
+} 
+}
+
+@media only screen and (max-width: 361px) {
+  .title3 {
+    padding-left: 30px;
+} 
+}
+
+@media only screen and (max-width: 361px) {
+  .languagesandtoolstext {
+    padding-left: 30px;
+} 
+}
+
+
+@media only screen and (max-width: 361px) {
+  .pythonicon {
+    margin-left: 30px;
+    padding-right: 0px;
+} 
+}
+
+@media only screen and (max-width: 361px) {
+  .footer {
+    padding-left: 30px;
+    padding-right: 0px;
+} 
+}
+
+
+@media only screen and (max-width: 361px) {
+  .box-three {
+    height: 900px;
+} 
+}
+
+@media only screen and (max-width: 361px) {
+  .box-four {
+    height: 650px;
+} 
+}  
+
+
+/* MOBILE - MIN-WIDTH 320px */
+
+@media only screen and (max-width: 320px) {
+  #logo {
+    font-size: 1.2rem;
+} 
+}
+
+@media only screen and (max-width: 320px) {
+  .items {
+    font-size: 0.9rem;
+} 
+}
+
+@media only screen and (max-width: 320px) {
+  h2 {
+    font-size: 1.2rem;
+    padding-left: 40px;
+} 
+}
+
+@media only screen and (max-width: 320px) {
+  .aboutme1 {
+    padding-left: 40px;
+    padding-right: 0;
+} 
+}
+
+@media only screen and (max-width: 320px) {
+  .aboutme2 {
+    padding-left: 40px;
+    padding-right: 0;
+} 
+}
+
+@media only screen and (max-width: 320px) {
+  .educationtitle {
+    padding-left: 40px;
+    padding-right: 0;
+} 
+}
+
+@media only screen and (max-width: 320px) {
+  .educationtext1 {
+    padding-left: 40px;
+    padding-right: 20px;
+} 
+}
+
+@media only screen and (max-width: 320px) {
+  .title3 {
+    padding-left: 40px;
+    padding-right: 0px;
+} 
+}
+
+@media only screen and (max-width: 320px) {
+  .languagesandtoolstext {
+    padding-left: 40px;
+    padding-right: 0px;
+} 
+}
+
+@media only screen and (max-width: 320px) {
+  .title3 {
+    padding-left: 40px;
+    padding-right: 0px;
+} 
+}
+
+@media only screen and (max-width: 320px) {
+  .title3 {
+    padding-left: 40px;
+    padding-right: 0px;
+} 
+}
+
+@media only screen and (max-width: 320px) {
+  .pythonicon {
+    margin-left: 40px;
+    padding-right: 0px;
+} 
+}
+
+@media only screen and (max-width: 320px) {
+  .box-four {
+    height: 750px;
+} 
+}
+
+
+@media only screen and (max-width: 320px) {
+  .footer {
+    padding-left: 40px;
+    padding-right: 0px;
+} 
+}
+
