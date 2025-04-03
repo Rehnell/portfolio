@@ -79,7 +79,7 @@ body {
    gap: 10px; /* Adds spacing between icons */
    width: 600px, auto, fit-content;
    height: 50px, auto;
-   background-color: black;
+   background-color: transparent;
    padding: 30px;
    margin-top: 10px;
    align-items: center;
