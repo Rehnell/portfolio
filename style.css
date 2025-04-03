@@ -73,8 +73,12 @@ body {
 /* box to contain Tech stack picture icons */
 
 .inner-box {
-   width: 300px;
-   height: 40px;
+   display: flex; /* Ensures the images stay in a row */
+   justify-content: center; /* Centers images */
+   flex-wrap: wrap; /* Allows wrapping if needed */
+   gap: 10px; /* Adds spacing between icons */
+   width: 600px, auto, fit-content;
+   height: 50px, auto;
    background-color: black;
    padding: 30px;
    margin-top: 10px;
