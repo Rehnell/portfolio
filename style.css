@@ -201,7 +201,7 @@ h1 {
   position: absolute;
   bottom: 0; /* Ensures it aligns with the bottom of #box1 */
   width: 100%;
-  height: auto; /* Keeps the aspect ratio */
+  height: 100%; /* Keeps the aspect ratio */
   object-fit: cover;
 }
 
