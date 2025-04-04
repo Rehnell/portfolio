@@ -31,6 +31,7 @@ body {
   gap: 0; /* Ensures no extra space between elements */
 }
 
+/* Section One */
 
 .box {
   width: 100%;
@@ -50,6 +51,12 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   
+}
+
+.loginform_pic {
+  height: 200px;
+  width: 200px;
+  padding: 40px; 
 }
 
 
