@@ -168,6 +168,7 @@ nav {
 /* Box 1 Section */
 
 h1 {
+  position: absolute;
   padding-left: 40px;
   font-family: 'poppins';
   font-weight: bolder;
