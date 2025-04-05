@@ -204,7 +204,7 @@ h4 {
 
 /* Footer */
 .footer {
-    position: fixed;
+    position: absolute;
     height: 70px;
     width: 100%;
     display: flex;
