@@ -54,10 +54,10 @@ body {
 }
 
 .loginform_pic {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   padding: 40px; 
-  border: 2px solid grey;
+  border: 1px solid grey;
   border-radius: 10px;
 }
 
