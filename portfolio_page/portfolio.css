@@ -259,39 +259,6 @@ h4 {
 }
 
 @media only screen and (max-width: 385px) {
-  .circle {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    margin: -75px;
-    background: red;
-    top: 55%;
-    left: 60%;
-    border-radius: 50%;
-    z-index: 2;
-} 
-}
-
-@media only screen and (max-width: 385px) {
-  .mountains {
-    height: 400px;
-} 
-}
-
-@media only screen and (max-width: 385px) {
-  .moving-clouds {
-    top: 120px;
-} 
-}
-
-@media only screen and (max-width: 385px) {
-  .man {
-    top: 280px;
-} 
-}
-
-
-@media only screen and (max-width: 385px) {
   h1 {
     height: 60px;
     font-size: 3.5rem;
@@ -317,32 +284,8 @@ h4 {
 }
 
 @media only screen and (max-width: 385px) {
-  .aboutme1 {
-    padding-left: 30px;
-} 
-}
-
-@media only screen and (max-width: 385px) {
-  .aboutme2 {
-    padding-left: 30px;
-} 
-}
-
-@media only screen and (max-width: 385px) {
   h3 {
     padding-left: 30px;
-} 
-}
-
-@media only screen and (max-width: 385px) {
-  .educationtext1 {
-    padding-left: 30px;
-} 
-}
-
-@media only screen and (max-width: 385px) {
-  #box3 {
-    height: 650px;
 } 
 }
 
@@ -352,21 +295,6 @@ h4 {
 } 
 }
 
-@media only screen and (max-width: 385px) {
-  .languagesandtoolstext {
-    padding-left: 30px;
-    max-width: 100%; /* Prevents overflow */
-    padding: 20px;
-    box-sizing: border-box;
-} 
-}
-
-
-@media only screen and (max-width: 385px) {
-  .educationtext1 {
-    padding-right: 60px;
-} 
-}
 
 @media only screen and (max-width: 385px) {
   .footer {
