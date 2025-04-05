@@ -260,6 +260,13 @@ h4 {
 }
 
 @media only screen and (max-width: 385px) {
+  .loginform_pic {
+    padding-top: 50px;
+    
+} 
+}
+
+@media only screen and (max-width: 385px) {
   h1 {
     height: 60px;
     font-size: 3.5rem;
