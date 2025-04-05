@@ -64,7 +64,7 @@ body {
 }
 
 #box3 {
-  height: 360px;
+  height: 386px;
   background-color: #ededed;
   display: flex;
   flex-direction: column;
@@ -607,7 +607,7 @@ h3 {
 
 @media only screen and (max-width: 385px) {
   #box3 {
-    height: 650px;
+    height: 630px;
 } 
 }
 
