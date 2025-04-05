@@ -271,14 +271,6 @@ h4 {
 
 
 @media only screen and (max-width: 385px) {
- .loginform_pic {
-    top: 20px;
-     
-} 
-}
-
-
-@media only screen and (max-width: 385px) {
   #box2 {
     height: 730px;
 } 
