@@ -326,7 +326,7 @@ h3 {
 
 /* Footer */
 .footer {
-    position: absolute;
+    position: fixed;
     height: 70px;
     width: 100%;
     display: flex;
