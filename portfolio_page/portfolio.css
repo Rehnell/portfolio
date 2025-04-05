@@ -175,6 +175,7 @@ h1 {
   color: black;
   margin-top: 600px;
   margin-left 40px;
+  z-index: 100px;
  
 
 /* Box 2 Section */
