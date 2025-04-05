@@ -208,7 +208,7 @@ h4 {
     height: 70px;
     width: 100%;
     display: flex;
-    background-color: #cccccc;
+    background-color: #dbdbdb;
     font-family: 'poppins';
     font-size: 0.9rem;
     color: white;
@@ -233,7 +233,7 @@ h4 {
     padding-left: 5px;
     margin-top: 20px;
     font-family: "poppins";
-    color: black;
+    color: white;
     text-align: center;
 }
 
