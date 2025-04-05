@@ -263,6 +263,7 @@ h4 {
 @media only screen and (max-width: 385px) {
   .loginform_pic {
     margin-top: 150px;
+    margin-left: 25px;
     
 } 
 }
