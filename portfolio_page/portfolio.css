@@ -323,6 +323,32 @@ nav {
 /* Box 2 Section */
 
 
+/* Icon Language and Framework images */
+  .jsicon {
+    height: 35px;
+    width: 35px;
+    z-index: 1000;
+}
+
+.pythonicon {
+    height: 35px;
+    width: 35px;
+}
+
+.htmlicon {
+    height: 35px;
+    width: 35px;
+}
+
+.cssicon {
+    height: 35px;
+    width: 35px;
+}
+
+.reacticon {
+    height: 35px;
+    width: 35px;
+}
 
 
 /* Footer */
