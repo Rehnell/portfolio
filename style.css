@@ -636,6 +636,12 @@ h3 {
 } 
 }
 
+@media only screen and (max-width: 385px) {
+  .footer_text {
+    font-size: 0.8rem
+} 
+}
+
 /* MOBILE - MIN-WIDTH 361px */
 
 @media only screen and (max-width: 361px) {
