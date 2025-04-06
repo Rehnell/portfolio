@@ -60,12 +60,13 @@ body {
 
 
 #box2 {
-  background-color: white;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  align-items: left;
   box-sizing: border-box;
-  margin-top: 0; /* No space above */
+  justify-content: flex-start;
+  height: 500px;
+  background-color: white;
 }
 
 #box3 {
