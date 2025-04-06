@@ -95,6 +95,19 @@ h1 {
   box-sizing: border-box;
 }
 
+.inner-box {
+   display: flex; /* Ensures the images stay in a row */
+   justify-content: left; /* Centers images */
+   flex-wrap: wrap; /* Allows wrapping if needed */
+   gap: 10px; /* Adds spacing between icons */
+   width: 600px, auto, fit-content;
+   height: 50px, auto;
+   background-color: transparent;
+   padding: 30px;
+   margin-top: 10px;
+   align-items: center;
+}
+
 /* Box 3 Section */
 #box3 {
   height: 500px;
