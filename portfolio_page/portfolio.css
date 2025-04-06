@@ -242,6 +242,15 @@ h1 {
   color: black;
   margin-top: 400px; 
 }
+
+h2 {
+  font-family: 'poppins';
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: black;
+  margin-top: 400px; 
+}
+
 /* Box 2 Section */
 
 h3 {
