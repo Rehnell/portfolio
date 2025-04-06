@@ -70,12 +70,15 @@ body {
 }
 
 h1 {
+  text-align: left;
   font-family: 'poppins';
   font-weight: bolder;
   font-size: 1.3rem;
   color: black;
-  margin-top: 400px; 
+  margin-top: 400px;
+  padding-left: 110px;
 }
+
 
 /* Box 3 Section */
 #box3 {
@@ -418,7 +421,7 @@ nav {
 @media only screen and (max-width: 385px) {
   h1 {
     margin-top: 100px;
-    margin-left: 10px;
+    padding-left: 30px;
 } 
 }
 
