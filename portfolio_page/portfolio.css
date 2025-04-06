@@ -91,7 +91,6 @@ h1 {
   font-size: 1rem;
   color: black;
   max-width: 100%; /* Prevents overflow */
-  padding-left: 4px;
   box-sizing: border-box;
 }
 
@@ -424,7 +423,6 @@ nav {
 
 @media only screen and (max-width: 385px) {
   .github_login_form {
-    padding-left: 30px;
 } 
 }
 
