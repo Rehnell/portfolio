@@ -637,7 +637,7 @@ h3 {
 }
 
 @media only screen and (max-width: 385px) {
-  .footer_text {
+  .footer_portfolio_text {
     font-size: 0.8rem
 } 
 }
