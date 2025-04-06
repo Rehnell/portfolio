@@ -67,7 +67,7 @@ body {
   height: 500px;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
-  background-color: white;
+  background-color: pink;
 }
 
 #box3 {
@@ -80,6 +80,75 @@ body {
   background-color: red;
 }
 
+#box4 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 0; /* Remove any unwanted space */
+  background-color: blue;
+}
+
+#box5 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 0; /* Remove any unwanted space */
+  background-color: orange;
+}
+
+#box6 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 0; /* Remove any unwanted space */
+  background-color: purple;
+}
+
+#box7 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 0; /* Remove any unwanted space */
+  background-color: grey;
+}
+
+#box8 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 0; /* Remove any unwanted space */
+  background-color: brown;
+}
+
+#box9 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 0; /* Remove any unwanted space */
+  background-color: yellow;
+}
+
+#box10 {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 0; /* Remove any unwanted space */
+  background-color: red;
+}
 /* box to contain Tech stack picture icons */
 
 .inner-box {
