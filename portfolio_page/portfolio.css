@@ -259,6 +259,13 @@ h4 {
 } 
 }
 
+@media only screen and (max-width: 385px) {
+  h1 {
+    margin-top: 500px;
+    padding-left: 30px;
+    font-size: 1.2rem;
+} 
+}
 
 
 
@@ -267,6 +274,7 @@ h4 {
     height: 730px;
 } 
 }
+
 
 
 @media only screen and (max-width: 385px) {
