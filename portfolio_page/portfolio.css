@@ -100,11 +100,13 @@ h1 {
 }
 
 h2 {
+  text-align: left;
   font-family: 'poppins';
   font-weight: bolder;
   font-size: 1.3rem;
   color: black;
-  margin-top: 400px; 
+  padding-left: 110px;
+  padding-top: 54px;
 }
 
 /* Box 5 Section */
