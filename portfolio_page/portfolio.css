@@ -273,11 +273,57 @@ h4 {
 
 @media only screen and (max-width: 385px) {
   #box2 {
-    height: 600px;
+    height: 300px;
 } 
 }
 
+@media only screen and (max-width: 385px) {
+  #box3 {
+    height: 510px;
+} 
+}
 
+@media only screen and (max-width: 385px) {
+  #box4 {
+    height: 300px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  #box5 {
+    height: 510px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  #box6 {
+    height: 300px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  #box7 {
+    height: 510px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  #box8 {
+    height: 300px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  #box9 {
+    height: 510px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  #box10 {
+    height: 300px;
+} 
+}
 
 @media only screen and (max-width: 385px) {
   h2 {
