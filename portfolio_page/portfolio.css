@@ -64,6 +64,8 @@ body {
   flex-direction: column; /* stack children vertically */
   align-items: left;
   height: 500px;
+  box-sizing: border-box;
+  margin-top: 0; /* Remove any unwanted space */
   background-color: white;
 }
 
