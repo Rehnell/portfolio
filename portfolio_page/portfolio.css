@@ -47,6 +47,7 @@ body {
   align-items: center; /* optional: center horizontally */
   justify-content: flex-start;
   height: 400px;
+  box-sizing: border-box;
   background-color: green;
 }
 
@@ -70,13 +71,13 @@ body {
 }
 
 #box3 {
-  height: 386px;
-  background-color: #ededed;
+  height: 500px;
   display: flex;
   flex-direction: column;
   padding: 20px;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
+  background-color: red;
 }
 
 /* box to contain Tech stack picture icons */
