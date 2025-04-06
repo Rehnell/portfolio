@@ -31,8 +31,7 @@ body {
   gap: 0; /* Ensures no extra space between elements */
 }
 
-/* Section One */
-
+/* Box 1 Section */
 .box {
   width: 100%;
   font-size: 8em;
@@ -59,7 +58,7 @@ body {
   border-radius: 10px;
 }
 
-
+/* Box 2 Section */
 #box2 {
   display: flex;
   flex-direction: column; /* stack children vertically */
@@ -70,6 +69,15 @@ body {
   background-color: white;
 }
 
+h1 {
+  font-family: 'poppins';
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: black;
+  margin-top: 400px; 
+}
+
+/* Box 3 Section */
 #box3 {
   height: 500px;
   display: flex;
@@ -80,6 +88,7 @@ body {
   background-color: red;
 }
 
+/* Box 4 Section */
 #box4 {
   height: 500px;
   display: flex;
@@ -90,6 +99,15 @@ body {
   background-color: blue;
 }
 
+h2 {
+  font-family: 'poppins';
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: black;
+  margin-top: 400px; 
+}
+
+/* Box 5 Section */
 #box5 {
   height: 500px;
   display: flex;
@@ -100,6 +118,8 @@ body {
   background-color: orange;
 }
 
+
+/* Box 6 Section */
 #box6 {
   height: 500px;
   display: flex;
@@ -110,6 +130,17 @@ body {
   background-color: purple;
 }
 
+h3 {
+  text-align: left;
+  font-family: 'poppins';
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: black;
+  padding-left: 110px;
+  padding-top: 54px;
+}
+
+/* Box 7 Section */
 #box7 {
   height: 500px;
   display: flex;
@@ -120,6 +151,7 @@ body {
   background-color: grey;
 }
 
+/* Box 8 Section */
 #box8 {
   height: 500px;
   display: flex;
@@ -130,6 +162,17 @@ body {
   background-color: brown;
 }
 
+h4 {
+  text-align: left;
+  font-family: 'poppins';
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: black;
+  padding-left: 40px;
+  padding-top: 54px;
+}
+
+/* Box 9 Section */
 #box9 {
   height: 500px;
   display: flex;
@@ -140,6 +183,7 @@ body {
   background-color: yellow;
 }
 
+/* Box 10 Section */
 #box10 {
   height: 500px;
   display: flex;
@@ -149,7 +193,16 @@ body {
   margin-top: 0; /* Remove any unwanted space */
   background-color: red;
 }
-/* box to contain Tech stack picture icons */
+
+h5 {
+  text-align: left;
+  font-family: 'poppins';
+  font-weight: bolder;
+  font-size: 1.3rem;
+  color: black;
+  padding-left: 40px;
+  padding-top: 54px;
+}
 
 .inner-box {
    display: flex; /* Ensures the images stay in a row */
@@ -174,7 +227,7 @@ nav {
   z-index: 300;
 }
 
-/* Ensure navbar takes up full width */
+/* Ensure navbar takes up full width & responsive to all screen sizes */
 .navbar {
   display: flex;
   align-items: center;
@@ -233,45 +286,11 @@ nav {
     transition: 0.6s ease;
   }
 
-/* Box 1 Section */
-
-h1 {
-  font-family: 'poppins';
-  font-weight: bolder;
-  font-size: 1.3rem;
-  color: black;
-  margin-top: 400px; 
-}
-
-h2 {
-  font-family: 'poppins';
-  font-weight: bolder;
-  font-size: 1.3rem;
-  color: black;
-  margin-top: 400px; 
-}
 
 /* Box 2 Section */
 
-h3 {
-  text-align: left;
-  font-family: 'poppins';
-  font-weight: bolder;
-  font-size: 1.3rem;
-  color: black;
-  padding-left: 110px;
-  padding-top: 54px;
-}
 
-h4 {
-  text-align: left;
-  font-family: 'poppins';
-  font-weight: bolder;
-  font-size: 1.3rem;
-  color: black;
-  padding-left: 40px;
-  padding-top: 54px;
-}
+
 
 /* Footer */
 .footer {
@@ -308,11 +327,10 @@ h4 {
     text-align: center;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES - Ensuring portfolio page is responsive to all devices */
 
 
-/* 385px - MAX-WIDTH - MOBILE  */
-
+/* 385px screen size - Mobile */
 @media only screen and (max-width: 385px) {
   #box1 {
     height: 510px;
@@ -435,8 +453,7 @@ h4 {
 } 
 }
 
-/* MOBILE - MIN-WIDTH 361px */
-
+/* 361px screen size - Mobile */
 @media only screen and (max-width: 361px) {
   #logo {
     font-size: 1.3rem;
@@ -479,8 +496,7 @@ h4 {
 }  
 
 
-/* MOBILE - MIN-WIDTH 320px */
-
+/* 320px screen size - Mobile */
 @media only screen and (max-width: 320px) {
   #logo {
     font-size: 1.2rem;
