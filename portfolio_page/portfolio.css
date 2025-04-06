@@ -79,6 +79,14 @@ h1 {
   padding-left: 110px;
 }
 
+.login_signup_form_text {
+  font-size: 1rem;
+  color: black;
+  max-width: 100%; /* Prevents overflow */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 
 /* Box 3 Section */
 #box3 {
