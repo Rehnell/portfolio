@@ -171,7 +171,9 @@ h1 {
   font-family: 'poppins';
   font-weight: bolder;
   font-size: 1.3rem;
-  color: black; 
+  color: black;
+  margin-left: 40px;
+  margin-top: 500px; 
 }
 /* Box 2 Section */
 
