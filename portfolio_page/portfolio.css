@@ -91,8 +91,7 @@ h1 {
   font-size: 1rem;
   color: black;
   max-width: 100%; /* Prevents overflow */
-  padding: 20px;
-  margin-left: 4px;
+  padding-left: 4px;
   box-sizing: border-box;
 }
 
