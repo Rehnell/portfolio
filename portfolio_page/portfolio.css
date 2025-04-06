@@ -45,10 +45,9 @@ body {
   display: flex;
   flex-direction: column; /* stack children vertically */
   align-items: center; /* optional: center horizontally */
-  text-align: left;
   justify-content: flex-start;
-  height: 800px;
-  background-color: transparent;
+  height: 500px;
+  background-color: green;
 }
 
 .loginform_pic {
