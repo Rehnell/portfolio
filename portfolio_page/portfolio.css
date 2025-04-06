@@ -87,7 +87,7 @@ h1 {
   box-sizing: border-box;
 }
 
-.github_loginform {
+.github_login_form {
   font-size: 1rem;
   color: black;
   max-width: 100%; /* Prevents overflow */
@@ -385,6 +385,12 @@ nav {
 }
 
 @media only screen and (max-width: 385px) {
+  .github_login_form {
+    padding-left: 30px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
   #box3 {
     height: 510px;
 } 
@@ -539,6 +545,12 @@ nav {
 
 @media only screen and (max-width: 385px) {
   .login_signup_form_text {
+    padding-left: 30px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  .github_ {
     padding-left: 30px;
 } 
 }
