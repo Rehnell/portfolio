@@ -168,19 +168,12 @@ nav {
 /* Box 1 Section */
 
 h1 {
-  position: relative;
-  padding-left: 40px;
   font-family: 'poppins';
   font-weight: bolder;
   font-size: 1.3rem;
-  color: black;
-  margin-top: 600px;
-  z-index: 100px;
- 
-
-/* Box 2 Section */
-
+  color: black; 
 }
+/* Box 2 Section */
 
 h3 {
   text-align: left;
