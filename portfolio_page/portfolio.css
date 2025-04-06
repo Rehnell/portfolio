@@ -364,7 +364,8 @@ h4 {
 
 @media only screen and (max-width: 385px) {
   h1 {
-    padding-left: 30px;
+    margin-top: 70px;
+    padding-left: 10px;
     font-size: 1.2rem;
 } 
 }
