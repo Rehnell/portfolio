@@ -236,7 +236,7 @@ h4 {
 
 @media only screen and (max-width: 385px) {
   #box1 {
-    height: 800px;
+    height: 600px;
     
 }
 
@@ -272,7 +272,7 @@ h4 {
 
 @media only screen and (max-width: 385px) {
   #box2 {
-    height: 730px;
+    height: 600px;
 } 
 }
 
