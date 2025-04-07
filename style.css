@@ -350,11 +350,10 @@ h3 {
   }
 
   .footer_portfolio_text {
-    padding-left: 5px;
+    padding-left: 30px;
     margin-top: 20px;
     font-family: "poppins";
     color: black;
-    text-align: center;
 }
 
 /* MEDIA QUERIES */
