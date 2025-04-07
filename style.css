@@ -628,6 +628,7 @@ h3 {
   .footer_portfolio_text {
     font-size: 0.8rem;
     align-items: center;
+    justify-content: center;
 } 
 }
 
