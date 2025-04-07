@@ -176,6 +176,11 @@ h2 {
   background-color: orange;
 }
 
+.WeatherApp_pic {
+   height: 300px;
+   width: 300px;
+
+}
 
 /* Box 6 Section */
 #box6 {
