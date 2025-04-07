@@ -465,6 +465,11 @@ nav {
 }
 
 @media only screen and (max-width: 385px) {
+  .calculator_browser
+     padding-left: 30px;
+}
+
+@media only screen and (max-width: 385px) {
   #box5 {
     height: 510px;
 } 
