@@ -125,7 +125,7 @@ h1 {
 
 /* Box 4 Section */
 #box4 {
-  height: 400px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
