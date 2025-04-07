@@ -502,6 +502,13 @@ nav {
 }
 
 @media only screen and (max-width: 385px) {
+  .calculator_text {
+    padding-left: 30px;
+} 
+}
+
+
+@media only screen and (max-width: 385px) {
   h3 {
     padding-left: 30px;
 } 
