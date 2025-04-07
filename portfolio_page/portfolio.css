@@ -158,6 +158,13 @@ h2 {
   box-sizing: border-box;
 }
 
+.calculator_browser {
+  font-size: 1rem;
+  color: black;
+  max-width: 100%; /* Prevents overflow */
+  box-sizing: border-box;
+}
+
 /* Box 5 Section */
 #box5 {
   height: 500px;
