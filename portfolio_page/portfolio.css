@@ -467,6 +467,7 @@ nav {
 
 @media only screen and (max-width: 385px) {
   .calculator_browser
+     margin-top: 40px;
      padding-left: 30px;
 }
 
