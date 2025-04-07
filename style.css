@@ -626,7 +626,8 @@ h3 {
 
 @media only screen and (max-width: 385px) {
   .footer_portfolio_text {
-    font-size: 0.8rem
+    font-size: 0.8rem;
+    align-items: center;
 } 
 }
 
