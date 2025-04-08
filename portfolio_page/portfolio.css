@@ -179,6 +179,8 @@ h2 {
 .WeatherApp_pic {
    height: 400px;
    width: 350px;
+   border: 1px solid transparent;
+   border-radius: 10px;
 
 }
 
