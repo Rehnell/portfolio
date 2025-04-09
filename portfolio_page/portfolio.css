@@ -218,6 +218,7 @@ h3 {
   color: black;
   max-width: 100%; /* Prevents overflow */
   box-sizing: border-box;
+  padding-top: 10px;
 }
 
 .WeatherApp_browser {
