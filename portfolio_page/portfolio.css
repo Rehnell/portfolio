@@ -156,6 +156,7 @@ h2 {
   color: black;
   max-width: 100%; /* Prevents overflow */
   box-sizing: border-box;
+  padding-top: 10px;
 }
 
 .calculator_browser {
