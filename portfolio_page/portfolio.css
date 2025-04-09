@@ -562,6 +562,15 @@ nav {
 } 
 }
 
+@media only screen and (max-width: 385px) {
+  .footer_portfolio_text {
+    padding-left: 30px;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+} 
+}
+
 /* 361px screen size - Mobile */
 @media only screen and (max-width: 361px) {
   #logo {
