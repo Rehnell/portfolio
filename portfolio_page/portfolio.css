@@ -205,6 +205,14 @@ h3 {
   padding-top: 54px;
 }
 
+.WeatherApp_text {
+  font-size: 1rem;
+  color: black;
+  max-width: 100%; /* Prevents overflow */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 /* Box 7 Section */
 #box7 {
   height: 500px;
