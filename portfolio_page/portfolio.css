@@ -238,6 +238,11 @@ h3 {
   background-color: grey;
 }
 
+.Sandwichbar_pic {
+   border: 1px solid transparent;
+   border-radius: 10px;
+}
+
 /* Box 8 Section */
 #box8 {
   height: 500px;
