@@ -213,6 +213,20 @@ h3 {
   box-sizing: border-box;
 }
 
+.github_WeatherApp {
+  font-size: 1rem;
+  color: black;
+  max-width: 100%; /* Prevents overflow */
+  box-sizing: border-box;
+}
+
+.WeatherApp_browser {
+  font-size: 1rem;
+  color: black;
+  max-width: 100%; /* Prevents overflow */
+  box-sizing: border-box;
+}
+
 /* Box 7 Section */
 #box7 {
   height: 500px;
