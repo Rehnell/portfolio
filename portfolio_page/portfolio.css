@@ -275,6 +275,11 @@ h4 {
   background-color: yellow;
 }
 
+.FilmBookingSystem_pic {
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+  
 /* Box 10 Section */
 #box10 {
   height: 500px;
