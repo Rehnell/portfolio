@@ -239,6 +239,7 @@ h3 {
 }
 
 .Sandwichbar_pic {
+  margin-top: 30px;
   border: 1px solid transparent;
   border-radius: 10px;
 }
