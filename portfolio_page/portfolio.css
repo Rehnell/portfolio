@@ -23,7 +23,7 @@ body {
   box-sizing: border-box;
 }
 
-/* Page Sections */
+/* Container */
 .container {
   min-height: 300px;
   display: flex;
