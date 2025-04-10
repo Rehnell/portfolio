@@ -249,7 +249,6 @@ h3 {
   height: 500px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
   background-color: brown;
@@ -442,13 +441,9 @@ nav {
 /* MEDIA QUERIES - Ensuring portfolio page is responsive to all devices */
 
 
-/* 385px screen size - Mobile */
-@media only screen and (max-width: 385px) {
-  #box1 {
-    height: 510px;
-    
-}
+/* 385px SCREEN SIZE  - MOBILE */
 
+/* Logo and Navigation */
 @media only screen and (max-width: 385px) {
   #logo {
     font-size: 1.2rem;
@@ -461,6 +456,14 @@ nav {
 } 
 }
 
+/* Box 1 */
+@media only screen and (max-width: 385px) {
+  #box1 {
+    height: 510px;
+    
+}
+
+
 @media only screen and (max-width: 385px) {
   .loginform_pic {
     margin-top: 150px;
@@ -469,7 +472,7 @@ nav {
 } 
 }
 
-
+/* Box 2 */
 @media only screen and (max-width: 385px) {
   #box2 {
     height: 400px;
@@ -483,12 +486,14 @@ nav {
 } 
 }
 
+/* Box 3 */
 @media only screen and (max-width: 385px) {
   #box3 {
     height: 290px;
 } 
 }
 
+/* Box 4 */
 @media only screen and (max-width: 385px) {
   #box4 {
     height: 400px;
@@ -497,6 +502,12 @@ nav {
 
 @media only screen and (max-width: 385px) {
   h2 {
+    padding-left: 30px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  .calculator_text {
     padding-left: 30px;
 } 
 }
@@ -516,12 +527,14 @@ nav {
 }
 }
 
+/* Box 5 */
 @media only screen and (max-width: 385px) {
   #box5 {
     height: 510px;
 } 
 }
 
+/* Box 6 */
 @media only screen and (max-width: 385px) {
   #box6 {
     height: 400px;
@@ -549,12 +562,14 @@ nav {
 }
 }
 
+/* Box 7 */
 @media only screen and (max-width: 385px) {
   #box7 {
     height: 395px;
 } 
 }
 
+/* Box 8 */
 @media only screen and (max-width: 385px) {
   #box8 {
     height: 300px;
@@ -567,12 +582,14 @@ nav {
 } 
 }
 
+/* Box 9 */
 @media only screen and (max-width: 385px) {
   #box9 {
     height: 510px;
 } 
 }
 
+/* Box 10 */
 @media only screen and (max-width: 385px) {
   #box10 {
     height: 300px;
@@ -584,12 +601,6 @@ nav {
 
 
 
-
-@media only screen and (max-width: 385px) {
-  .calculator_text {
-    padding-left: 30px;
-} 
-}
 
 
 @media only screen and (max-width: 385px) {
@@ -704,40 +715,6 @@ nav {
 } 
 }
 
-@media only screen and (max-width: 320px) {
-  .title3 {
-    padding-left: 40px;
-    padding-right: 0px;
-} 
-}
-
-@media only screen and (max-width: 320px) {
-  .languagesandtoolstext {
-    padding-left: 40px;
-    padding-right: 0px;
-} 
-}
-
-@media only screen and (max-width: 320px) {
-  .title3 {
-    padding-left: 40px;
-    padding-right: 0px;
-} 
-}
-
-@media only screen and (max-width: 320px) {
-  .title3 {
-    padding-left: 40px;
-    padding-right: 0px;
-} 
-}
-
-@media only screen and (max-width: 320px) {
-  .pythonicon {
-    margin-left: 40px;
-    padding-right: 0px;
-} 
-}
 
 @media only screen and (max-width: 320px) {
   .box-four {
