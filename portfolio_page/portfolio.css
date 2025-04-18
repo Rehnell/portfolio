@@ -254,6 +254,14 @@ h3 {
   background-color: white;
 }
 
+.sandwichbar_text {
+  font-size: 1rem;
+  color: black;
+  max-width: 100%; /* Prevents overflow */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 h4 {
   text-align: left;
   font-family: 'poppins';
