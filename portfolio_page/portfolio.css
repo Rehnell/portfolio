@@ -591,11 +591,7 @@ nav {
 }
 
 .sandwichbar_text {
-  font-size: 1rem;
-  color: black;
-  max-width: 100%; /* Prevents overflow */
-  padding: 20px;
-  box-sizing: border-box;
+  padding-left; 30px;
 }
 
 /* Box 9 */
