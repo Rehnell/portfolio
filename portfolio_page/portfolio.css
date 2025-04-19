@@ -273,42 +273,7 @@ h4 {
 }
 
 
-/* Box 9 Section */
-#box9 {
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  box-sizing: border-box;
-  margin-top: 0; /* Remove any unwanted space */
-  background-color: white;
-}
 
-.FilmBookingSystem_pic {
-  border: 1px solid transparent;
-  border-radius: 10px;
-}
-  
-/* Box 10 Section */
-#box10 {
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  box-sizing: border-box;
-  margin-top: 0; /* Remove any unwanted space */
-  background-color: red;
-}
-
-h5 {
-  text-align: left;
-  font-family: 'poppins';
-  font-weight: bolder;
-  font-size: 1.3rem;
-  color: black;
-  padding-left: 40px;
-  padding-top: 54px;
-}
 
 .inner-box {
    display: flex; /* Ensures the images stay in a row */
@@ -593,26 +558,6 @@ nav {
 .sandwichbar_text {
   padding-left; 30px;
 }
-
-/* Box 9 */
-@media only screen and (max-width: 385px) {
-  #box9 {
-    height: 510px;
-} 
-}
-
-/* Box 10 */
-@media only screen and (max-width: 385px) {
-  #box10 {
-    height: 300px;
-} 
-}
-
-
-
-
-
-
 
 
 @media only screen and (max-width: 385px) {
