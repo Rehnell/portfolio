@@ -36,7 +36,7 @@ body {
   width: 100%;
   font-size: 8em;
   margin: 0; /* Ensure no extra margin */
-  height: 700px;
+  height: 600px;
   z-index: 299;
 }
 
