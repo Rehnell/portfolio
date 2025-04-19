@@ -468,6 +468,14 @@ nav {
 } 
 }
 
+@media only screen and (max-width: 385px) {
+  .calculator_pic {
+     height: 250px;
+     width: 250px;
+}
+}
+
+
 /* Box 4 */
 @media only screen and (max-width: 385px) {
   #box4 {
