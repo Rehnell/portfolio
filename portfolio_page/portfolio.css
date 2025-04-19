@@ -115,7 +115,7 @@ h1 {
   padding: 20px;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
-  background-color: white;
+  background-color: #fafafa;
 }
 
 .calculator_pic {
@@ -130,7 +130,7 @@ h1 {
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
-  background-color: white;
+  background-color: #fafafa;
 }
 
 h2 {
