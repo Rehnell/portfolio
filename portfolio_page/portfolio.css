@@ -429,7 +429,7 @@ nav {
 } 
 }
 
-/* Box 1 */
+/* Box 1 - Login Form Pic */
 @media only screen and (max-width: 385px) {
   #box1 {
     height: 400px;
@@ -447,7 +447,7 @@ nav {
 } 
 }
 
-/* Box 2 */
+/* Box 2 - Login Form Title and Text */
 @media only screen and (max-width: 385px) {
   #box2 {
     height: 400px;
@@ -468,7 +468,7 @@ nav {
 } 
 }
   
-/* Box 3 */
+/* Box 3 - Calculator Pic */
 @media only screen and (max-width: 385px) {
   #box3 {
     height: 290px;
@@ -483,7 +483,7 @@ nav {
 }
 
 
-/* Box 4 */
+/* Box 4 - Calculator Title and Text */
 @media only screen and (max-width: 385px) {
   #box4 {
     height: 400px;
@@ -558,7 +558,7 @@ nav {
 }
 }
 
-/* Box 7 */
+/* Box 7 - Sandwich bar Picture */
 @media only screen and (max-width: 385px) {
   #box7 {
     height: 395px;
@@ -571,7 +571,7 @@ nav {
     width: 280px;
     
 
-/* Box 8 */
+/* Box 8 - Sandwich bar Title and Text */
 @media only screen and (max-width: 385px) {
   #box8 {
     height: 400px;
