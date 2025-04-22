@@ -517,17 +517,23 @@ nav {
 }
 }
 
-/* Box 5 */
+/* Box 5 - Weather App Picture */
 @media only screen and (max-width: 385px) {
   #box5 {
     height: 440px;
 } 
 }
 
-/* Box 6 */
+/* Box 6 - Weather App Title and Text */
 @media only screen and (max-width: 385px) {
   #box6 {
     height: 400px;
+} 
+}
+
+@media only screen and (max-width: 385px) {
+  h3 {
+    padding-left: 30px;
 } 
 }
 
@@ -581,13 +587,6 @@ nav {
 @media only screen and (max-width: 385px) {
   .sandwichbar_text {
     padding-left: 30px;
-}
-}
-
-@media only screen and (max-width: 385px) {
-  h3 {
-    padding-left: 30px;
-} 
 }
 
 
