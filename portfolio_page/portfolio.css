@@ -565,10 +565,11 @@ nav {
 } 
 }
 
-.sandwichbar_text {
-  padding-left; 30px;
+@media only screen and (max-width: 385px) {
+  .sandwichbar_text {
+    padding-left; 30px;
 }
-
+}
 
 @media only screen and (max-width: 385px) {
   h3 {
