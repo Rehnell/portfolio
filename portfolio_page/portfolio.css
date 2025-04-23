@@ -586,7 +586,7 @@ nav {
 /* Box 8 - Sandwich bar Title and Text */
 @media only screen and (max-width: 385px) {
   #box8 {
-    height: 200px;
+    height: 100px;
 } 
 }
 
