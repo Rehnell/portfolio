@@ -643,6 +643,7 @@ h3 {
   .github-icon {
     height: 30px;
     width: 30px;
+    margin-left: auto;
 } 
 }
 
