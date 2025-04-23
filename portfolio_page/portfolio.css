@@ -576,6 +576,7 @@ nav {
 @media only screen and (max-width: 385px) {
   #box8 {
     height: 400px;
+    align-items: left;
 } 
 }
 
