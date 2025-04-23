@@ -251,7 +251,7 @@ h3 {
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
-  background-color: white;
+  background-color: blue;
 }
 
 h4 {
