@@ -409,6 +409,14 @@ nav {
     color: black;
 }
 
+
+.github-icon {
+  height: 30px;
+  width: 30px;
+  align-items: center;
+}
+
+
 /* MEDIA QUERIES - Ensuring portfolio page is responsive to all devices */
 
 /* SCREEN SIZE - PC */
