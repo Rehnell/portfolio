@@ -388,11 +388,11 @@ nav {
 
 /* Footer */
 .footer {
-    position: absolute;
+    position: fixed;
     height: 70px;
     width: 100%;
     display: flex;
-    background-color: #ededed;
+    background-color: white;
     font-family: 'poppins';
     font-size: 0.9rem;
     color: white;
@@ -403,7 +403,7 @@ nav {
     bottom: fixed;
 }
 
-  .footer_portfolio_text {
+.footer_portfolio_text {
     margin-left: 30px;
     font-family: "poppins";
     color: black;
