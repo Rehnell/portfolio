@@ -260,16 +260,16 @@ h4 {
   font-weight: bolder;
   font-size: 1.3rem;
   color: black;
-  padding-left: 30px; /* reset */
-  margin: 0;
+  padding-left: 110px;
+  padding-top: 54px;
 }
 
 .sandwichbar_text {
   font-size: 1rem;
   color: black;
-  max-width: 100%;
-  padding-left: 30px;
-  box-sizing: border-box;;
+  max-width: 100%; /* Prevents overflow */
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 
@@ -584,7 +584,7 @@ nav {
 
 @media only screen and (max-width: 385px) {
   h4 {
-    margin-left: 30px;
+    padding-left: 30px;
 } 
 }
 
