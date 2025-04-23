@@ -388,7 +388,7 @@ nav {
 
 /* Footer */
 .footer {
-    position: relative;
+    position: fixed;
     height: 70px;
     width: 100%;
     display: flex;
@@ -400,7 +400,7 @@ nav {
     align-items: center;
     margin: 0;
     padding: 0;
-    bottom: 0;
+    bottom: fixed;
 }
 
 .footer_portfolio_text {
@@ -409,13 +409,11 @@ nav {
     color: black;
 }
 
-
 .github-icon {
   height: 30px;
   width: 30px;
   align-items: center;
 }
-
 
 /* MEDIA QUERIES - Ensuring portfolio page is responsive to all devices */
 
