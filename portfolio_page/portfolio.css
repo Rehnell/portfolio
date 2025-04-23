@@ -414,6 +414,12 @@ nav {
 
 /* MEDIA QUERIES - Ensuring portfolio page is responsive to all devices */
 
+/* SCREEN SIZE - PC */
+
+/* SCREEN SIZE - LAPTOP */
+
+/* SCREEN SIZE - TABLET */
+
 
 /* 385px SCREEN SIZE  - MOBILE */
 
@@ -591,13 +597,7 @@ nav {
     padding-left: 30px;
 }
 
-
-@media only screen and (max-width: 385px) {
-  h5 {
-    padding-left: 30px;
-} 
-}
-
+/* Footer */
 @media only screen and (max-width: 385px) {
   .footer {
     position: relative;
