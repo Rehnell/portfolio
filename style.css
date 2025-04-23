@@ -633,6 +633,7 @@ h3 {
 @media only screen and (max-width: 385px) {
   .footer_portfolio_text {
     padding-left: 30px;
+    padding-right: 50px;
     font-size: 0.8rem;
     align-items: center;
     justify-content: center;
@@ -643,7 +644,6 @@ h3 {
   .github-icon {
     height: 30px;
     width: 30px;
-    margin-right: auto;
 } 
 }
 
