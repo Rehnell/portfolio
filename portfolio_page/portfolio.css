@@ -590,9 +590,7 @@ nav {
 
 @media only screen and (max-width: 385px) {
   .sandwichbar_text {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 20px;
+    padding: 30px;
 }
 }
     
