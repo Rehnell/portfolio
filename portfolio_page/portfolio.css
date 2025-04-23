@@ -165,7 +165,7 @@ h2 {
   box-sizing: border-box;
 }
 
-/* Box 5 Section */
+/* Box 5 Section - Weather App Pic */
 #box5 {
   height: 500px;
   display: flex;
@@ -184,7 +184,7 @@ h2 {
 
 }
 
-/* Box 6 Section */
+/* Box 6 Section - Weather App Title & Text */
 #box6 {
   height: 500px;
   display: flex;
@@ -227,7 +227,7 @@ h3 {
   padding-top: 10px;
 }
 
-/* Box 7 Section */
+/* Box 7 Section - Sandwhich bar pic */
 #box7 {
   height: 500px;
   display: flex;
@@ -244,7 +244,7 @@ h3 {
   border-radius: 10px;
 }
 
-/* Box 8 Section */
+/* Box 8 Section - Sandwich bar Title and Text */
 #box8 {
   height: 500px;
   display: flex;
@@ -252,14 +252,6 @@ h3 {
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
   background-color: white;
-}
-
-.sandwichbar_text {
-  font-size: 1rem;
-  color: black;
-  max-width: 100%; /* Prevents overflow */
-  padding: 20px;
-  box-sizing: border-box;
 }
 
 h4 {
@@ -271,6 +263,15 @@ h4 {
   padding-left: 110px;
   padding-top: 54px;
 }
+
+.sandwichbar_text {
+  font-size: 1rem;
+  color: black;
+  max-width: 100%; /* Prevents overflow */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 
 
 
