@@ -47,7 +47,7 @@ body {
   justify-content: flex-start;
   height: 700px;
   box-sizing: border-box;
-  background-color: #f0f0f0;
+  background-color: white;
 }
 
 .loginform_pic {
@@ -66,7 +66,7 @@ body {
   height: 500px;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
-  background-color: #f0f0f0;
+  background-color: white;
 }
 
 h1 {
@@ -115,7 +115,7 @@ h1 {
   padding: 20px;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
-  background-color: #f0f0f0;
+  background-color: white;
 }
 
 .calculator_pic {
@@ -130,7 +130,7 @@ h1 {
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
-  background-color: #f0f0f0;
+  background-color: white;
 }
 
 h2 {
@@ -173,7 +173,7 @@ h2 {
   padding: 20px;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
-  background-color: #f0f0f0;
+  background-color: white;
 }
 
 .WeatherApp_pic {
@@ -235,7 +235,7 @@ h3 {
   padding: 20px;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
-  background-color: #f0f0f0;
+  background-color: white;
 }
 
 .Sandwichbar_pic {
@@ -251,7 +251,7 @@ h3 {
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
-  background-color: #f0f0f0;
+  background-color: white;
 }
 
 h4 {
