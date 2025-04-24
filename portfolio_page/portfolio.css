@@ -598,7 +598,7 @@ nav {
 
 @media only screen and (max-width: 385px) {
   h4 {
-    padding-left: 30px;
+    margin-left: 30px;
 } 
 }
 
