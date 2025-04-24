@@ -248,6 +248,14 @@ h4 {
   padding-top: 54px;
 }
 
+.contact_text {
+  font-size: 1rem;
+  color: black;
+  max-width: 100%; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 .inner-box {
    display: flex; /* Ensures the images stay in a row */
    justify-content: left; /* Centers images */
@@ -562,7 +570,7 @@ nav {
     padding-left: 30px;
 } 
 }
-    
+
 /* Footer */
 @media only screen and (max-width: 385px) {
   .footer {
