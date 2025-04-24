@@ -558,29 +558,9 @@ nav {
 }
 
 @media only screen and (max-width: 385px) {
-  .Sandwichbar_pic {
-    height: 280px;
-    width: 280px;
-    margin-left: 15px;
-    
-
-/* Box 8 - Sandwich bar Title and Text */
-@media only screen and (max-width: 385px) {
-  #box8 {
-    height: 400px;
-} 
-}
-
-@media only screen and (max-width: 385px) {
   h4 {
-    margin-left: 30px;
-} 
-}
-
-@media only screen and (max-width: 385px) {
-  .sandwichbar_text {
     padding-left: 30px;
-}
+} 
 }
     
 /* Footer */
