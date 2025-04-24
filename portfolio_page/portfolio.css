@@ -516,7 +516,6 @@ nav {
 @media only screen and (max-width: 385px) {
   .github_calculator {
     margin-top: 40px;
-    padding-top: 5px;
     padding-left: 0px;
 }
 }
