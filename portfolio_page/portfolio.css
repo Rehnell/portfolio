@@ -477,13 +477,6 @@ nav {
     padding-left: 30px;
 } 
 }
-
-@media only screen and (max-width: 385px) {
-  .github_login_form {
-    padding-left: 30px;
-} 
-}
-
   
 /* Box 3 - Calculator Pic */
 @media only screen and (max-width: 385px) {
@@ -523,7 +516,7 @@ nav {
 @media only screen and (max-width: 385px) {
   .github_calculator {
     margin-top: 40px;
-    padding-left: 4px;
+    padding-left: 0px;
 }
 }
 
