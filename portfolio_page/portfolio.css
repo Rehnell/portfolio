@@ -238,40 +238,15 @@ h3 {
   background-color: #ededed;
 }
 
-.Sandwichbar_pic {
-  margin-top: 30px;
-  border: 1px solid transparent;
-  border-radius: 10px;
-}
-
-/* Box 8 Section - Sandwich bar Title and Text */
-#box8 {
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  margin-top: 0; /* Remove any unwanted space */
-  background-color: yellow;
-}
-
 h4 {
   text-align: left;
   font-family: 'poppins';
-  font-weight: bolder;
+  font-weight: normal;
   font-size: 1.3rem;
   color: black;
-  padding-left: 110px;
+  padding-left: 40px;
   padding-top: 54px;
 }
-
-.sandwichbar_text {
-  font-size: 1rem;
-  color: black;
-  max-width: 100%; /* Prevents overflow */
-  padding: 20px;
-  box-sizing: border-box;
-}
-
 
 .inner-box {
    display: flex; /* Ensures the images stay in a row */
