@@ -527,7 +527,7 @@ nav {
 /* Box 6 - Weather App Title and Text */
 @media only screen and (max-width: 385px) {
   #box6 {
-    height: 400px;
+    height: 450px;
 } 
 }
 
