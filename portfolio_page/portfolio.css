@@ -580,6 +580,12 @@ nav {
 } 
 }
 
+@media only screen and (max-width: 385px) {
+  .linkedinlogo {
+    margin-top: 30px
+} 
+}
+
 /* Footer */
 @media only screen and (max-width: 385px) {
   .footer {
