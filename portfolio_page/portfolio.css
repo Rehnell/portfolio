@@ -614,10 +614,10 @@ nav {
 /* 361px SCREEN SIZE - MOBILE */
 
 
-
+/* Logo and Navigation */
 @media only screen and (max-width: 361px) {
   #logo {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 } 
 }
 
