@@ -374,7 +374,7 @@ nav {
 }
 
 .linkedinlogo {
-    position: relative;
+    position: absolute;
     height: 95px;
     width: 65px;
 }
