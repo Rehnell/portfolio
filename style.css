@@ -661,6 +661,12 @@ h3 {
 }
 
 @media only screen and (max-width: 361px) {
+  h1 {
+    font-size: 2.5rem;
+} 
+}
+
+@media only screen and (max-width: 361px) {
   .items {
     font-size: 0.9rem;
 } 
