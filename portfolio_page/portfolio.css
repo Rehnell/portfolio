@@ -647,6 +647,16 @@ nav {
 } 
 }
 
+@media only screen and (max-width: 361px) {
+  .footer_portfolio_text {
+    padding-left: 30px;
+    padding-right: 50px;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+} 
+}
+
 
 @media only screen and (max-width: 361px) {
   .box-three {
