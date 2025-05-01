@@ -764,14 +764,14 @@ h3 {
 }
 
 @media only screen and (max-width: 320px) {
-  h1 {
-    font-size: 2.8rem; 
+  .items {
+    font-size: 0.7rem;
 } 
 }
 
 @media only screen and (max-width: 320px) {
-  .items {
-    font-size: 0.7rem;
+  h1 {
+    font-size: 2.8rem; 
 } 
 }
 
@@ -784,6 +784,7 @@ h3 {
 
 @media only screen and (max-width: 320px) {
   .aboutme1 {
+    font-size: 0.8rem;
     padding-left: 40px;
     padding-right: 0;
 } 
@@ -791,6 +792,7 @@ h3 {
 
 @media only screen and (max-width: 320px) {
   .aboutme2 {
+    font-size: 0.8rem;
     padding-left: 40px;
     padding-right: 0;
 } 
