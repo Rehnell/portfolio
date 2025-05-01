@@ -771,13 +771,13 @@ h3 {
 
 @media only screen and (max-width: 320px) {
   h1 {
-    font-size: 1.5rem; 
+    font-size: 2rem; 
 } 
 }
 
 @media only screen and (max-width: 320px) {
   h2 {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     padding-left: 40px;
 } 
 }
