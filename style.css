@@ -773,6 +773,8 @@ h3 {
 @media only screen and (max-width: 320px) {
   .items {
     font-size: 0.7rem;
+    pading-lefgt: 0;
+    
 } 
 }
 
