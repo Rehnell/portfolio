@@ -905,6 +905,14 @@ h3 {
 }
 
 @media only screen and (max-width: 320px) {
+  #box3 {
+    height: 450px;
+} 
+}
+
+
+
+@media only screen and (max-width: 320px) {
   .footer {
     padding-left: 40px;
     padding-right: 0px;
