@@ -739,6 +739,19 @@ nav {
 }
 
 @media only screen and (max-width: 320px) {
+  .github_calculator {
+    font-size: 0.9rem;
+} 
+}
+
+@media only screen and (max-width: 320px) {
+  .calculator_browser {
+    font-size: 0.9rem;
+} 
+}
+
+
+@media only screen and (max-width: 320px) {
   h3 {
     font-size: 1rem;
 } 
@@ -749,6 +762,21 @@ nav {
     font-size: 0.9rem;
 } 
 }
+
+@media only screen and (max-width: 320px) {
+  .github_WeatherApp {
+    font-size: 0.9rem;
+} 
+}
+
+@media only screen and (max-width: 320px) {
+  .WeatherApp_browser {
+    font-size: 0.9rem;
+} 
+}
+
+
+
 
 @media only screen and (max-width: 320px) {
   .box-four {
