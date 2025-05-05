@@ -827,6 +827,13 @@ h3 {
 } 
 }
 
+
+@media only screen and (max-width: 320px) {
+  #box3 {
+    height: 600px;
+} 
+}
+
 @media only screen and (max-width: 320px) {
   h4 {
     font-size: 1rem;
@@ -901,12 +908,6 @@ h3 {
   .reacticon {
     height: 25px:
     width: 25px;
-} 
-}
-
-@media only screen and (max-width: 320px) {
-  #box3 {
-    height: 500px;
 } 
 }
 
