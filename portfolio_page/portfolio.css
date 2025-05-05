@@ -713,6 +713,8 @@ nav {
 } 
 }
 
+/* Login Form Section */
+
 @media only screen and (max-width: 320px) {
   .login_signup_form_text {
     font-size: 0.9rem;
@@ -725,7 +727,9 @@ nav {
 } 
 }
 
-  
+
+/* Calculator Section */
+
 @media only screen and (max-width: 320px) {
   h2 {
     font-size: 1rem;
