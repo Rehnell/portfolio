@@ -786,7 +786,7 @@ h3 {
 
 @media only screen and (max-width: 320px) {
   h2 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding-left: 40px;
 } 
 }
@@ -836,7 +836,7 @@ h3 {
 
 @media only screen and (max-width: 320px) {
   .languagesandtoolstext {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding-left: 40px;
     padding-right: 40px;
 } 
