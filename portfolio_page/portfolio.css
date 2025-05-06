@@ -829,7 +829,6 @@ nav {
 
 @media only screen and (max-width: 320px) {
   .github-icon {
-    padding-right: 30px;
     height: 30px;
     width: 30px;
 } 
