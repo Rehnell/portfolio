@@ -652,6 +652,20 @@ h3 {
 } 
 }
 
+/* 376px - MAX-WIDTH - MOBILE  */
+@media only screen and (max-width: 376px) {
+  #logo {
+    font-size: 1rem;
+} 
+}
+
+@media only screen and (max-width: 376px) {
+  .items {
+    font-size: 0.9rem;
+} 
+}
+
+
 /* MOBILE - MIN-WIDTH 361px */
 
 @media only screen and (max-width: 361px) {
@@ -678,6 +692,8 @@ h3 {
     height: 700px;
 } 
 }
+
+
 
 @media only screen and (max-width: 361px) {
   h2 {
