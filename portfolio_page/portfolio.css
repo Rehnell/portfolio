@@ -708,6 +708,8 @@ nav {
 
 /* 320px - SCREEN SIZE -  MOBILE */
 
+
+/* Logo & Navbar Section */
 @media only screen and (max-width: 320px) {
   #logo {
     font-size: 0.9rem;
@@ -717,6 +719,8 @@ nav {
 @media only screen and (max-width: 320px) {
   .items {
     font-size: 0.6rem;
+    pading-left: 0;
+    
 } 
 }
 
@@ -727,7 +731,6 @@ nav {
 }
 
 /* Login Form Section */
-
 @media only screen and (max-width: 320px) {
   .login_signup_form_text {
     font-size: 0.9rem;
@@ -740,9 +743,7 @@ nav {
 } 
 }
 
-
 /* Calculator Section */
-
 @media only screen and (max-width: 320px) {
   .calculator_pic {
     height: 220px;
