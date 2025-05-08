@@ -426,6 +426,13 @@ h3 {
 
 /* 2000px - MAX-WIDTH - DESKTOP & LAPTOPS */
 
+/* 1425px - LAPTOPS */
+@media only screen and (max-width: 1426px) {
+  #box1 {
+    height: 600px;
+} 
+}
+
 
 /* 385px - MAX-WIDTH - MOBILE  */
 
