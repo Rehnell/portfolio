@@ -528,18 +528,21 @@ h3 {
 @media only screen and (max-width: 385px) {
   .aboutme1 {
     padding-left: 30px;
+    padding-right: 30px;
 } 
 }
 
 @media only screen and (max-width: 385px) {
   .aboutme2 {
     padding-left: 30px;
+    padding-right: 30px;
 } 
 }
 
 @media only screen and (max-width: 385px) {
   h3 {
     padding-left: 30px;
+    padding-right: 30px;
 } 
 }
 
@@ -564,6 +567,7 @@ h3 {
 @media only screen and (max-width: 385px) {
   .languagesandtoolstext {
     padding-left: 30px;
+    padding-right: 30px;
 } 
 }
 
