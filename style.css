@@ -571,6 +571,14 @@ h3 {
 } 
 }
 
+@media only screen and (max-width: 385px) {
+  .inner-box {
+    padding-left: 30px;
+} 
+}
+
+
+
 
 @media only screen and (max-width: 385px) {
   .educationtext1 {
