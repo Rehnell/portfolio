@@ -257,7 +257,8 @@ h2 {
   font-size: 1rem;
   color: black;
   max-width: 100%; /* Prevents overflow */
-  padding: 20px;
+  padding-left: 110px;
+  padding-right: 40px;
   box-sizing: border-box;
 }
 
