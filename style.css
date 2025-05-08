@@ -55,6 +55,7 @@ body {
 
 
 #box2 {
+  height: 500px;
   background-color: white;
   display: flex;
   flex-direction: column;
