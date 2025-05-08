@@ -64,7 +64,7 @@ body {
 }
 
 #box3 {
-  height: 300px;
+  height: 350px;
   background-color: #ededed;
   display: flex;
   flex-direction: column;
