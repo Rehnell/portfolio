@@ -348,7 +348,7 @@ h3 {
 }
 
 .footer_portfolio_text {
-    margin-left: 30px;
+    margin-left: 110px;
     font-family: "poppins";
     color: black;
 }
@@ -866,7 +866,7 @@ h3 {
 
 @media only screen and (max-width: 320px) {
   .reacticon {
-    height: 25px:
+    height: 25px;
     width: 25px;
 } 
 }
