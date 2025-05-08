@@ -259,6 +259,7 @@ h2 {
   max-width: 100%; /* Prevents overflow */
   padding-left: 110px;
   padding-right: 220px;
+  padding-top: 30px;
   box-sizing: border-box;
 }
 
