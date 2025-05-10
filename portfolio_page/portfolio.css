@@ -410,7 +410,14 @@ nav {
 
 /* MEDIA QUERIES - Ensuring portfolio page is responsive to all devices */
 
-/* SCREEN SIZE - PC */
+/* 1921px SCREEN SIZE - PC */
+@media only screen and (max-width: 1921px) {
+  .calculator_pic  {
+    margin-top: 100px;
+} 
+}
+
+
 
 /* SCREEN SIZE - LAPTOP */
 
