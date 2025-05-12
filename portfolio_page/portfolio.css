@@ -423,7 +423,7 @@ nav {
 
 @media only screen and (max-width: 1456px) {
   .loginform_pic  {
-    padding: 0px;
+    padding: 40px;
     margin-left: 110px;
 } 
 }
