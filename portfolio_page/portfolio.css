@@ -421,6 +421,12 @@ nav {
 
 /* SCREEN SIZE - LAPTOP */
 
+@media only screen and (max-width: 1456px) {
+  .loginform_pic  {
+    padding-left: 110px;
+} 
+}
+
 /* SCREEN SIZE - TABLET */
 
 
