@@ -433,13 +433,8 @@ h3 {
   }
 }
 
-/* 2000px - MAX-WIDTH - DESKTOP & LAPTOPS */
 
-/* 1440px - LAPTOPS */
-
-
-
-/* 1426px - LAPTOPS */
+/* 1426px - MAX-WIDTH - DESKTOP & LAPTOPS */
 @media only screen and (max-width: 1426px) {
   #box1 {
     height: 600px;
@@ -458,6 +453,16 @@ h3 {
     top: 300px;
 } 
 }
+
+/* 801px - MAX-WIDTH - TABLET */
+
+@media only screen and (max-width: 801px) {
+  h1 {
+    font-size: 7rem;
+    left: 63%;
+} 
+}
+
 
 /* 385px - MAX-WIDTH - MOBILE  */
 
