@@ -502,6 +502,12 @@ h3 {
 } 
 }
 
+@media only screen and (max-width: 769px) {
+  #box2 {
+    height: 500px;
+} 
+}
+
 /* 385px - MAX-WIDTH - MOBILE  */
 
 @media only screen and (max-width: 385px) {
