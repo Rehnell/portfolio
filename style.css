@@ -489,6 +489,19 @@ h3 {
 } 
 }
 
+@media only screen and (max-width: 769px) {
+  h1 {
+    font-size: 6rem;
+    left: 50%;
+} 
+}
+
+@media only screen and (max-width: 769px) {
+  .man {
+    top: 350px;
+} 
+}
+
 /* 385px - MAX-WIDTH - MOBILE  */
 
 @media only screen and (max-width: 385px) {
