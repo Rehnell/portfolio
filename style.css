@@ -475,6 +475,11 @@ h3 {
 } 
 }
 
+@media only screen and (max-width: 801px) {
+  #box3 {
+    height: 490px;
+} 
+}
 
 /* 385px - MAX-WIDTH - MOBILE  */
 
