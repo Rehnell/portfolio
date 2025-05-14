@@ -459,7 +459,13 @@ h3 {
 @media only screen and (max-width: 801px) {
   h1 {
     font-size: 7rem;
-    left: 63%;
+    left: 50%;
+} 
+}
+
+@media only screen and (max-width: 1426px) {
+  .man {
+    top: 300px;
 } 
 }
 
