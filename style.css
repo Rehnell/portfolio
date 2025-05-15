@@ -517,7 +517,11 @@ h3 {
 } 
 }
 
-
+@media only screen and (max-width: 601px) {
+  .aboutme1 {
+    padding-right: 80px;
+} 
+}
 
 
 @media only screen and (max-width: 385px) {
