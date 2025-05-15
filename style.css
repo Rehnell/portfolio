@@ -511,6 +511,13 @@ h3 {
 
 /* 601px - MAX-WIDTH - MOBILE  */
 
+@media only screen and (max-width: 601px) {
+  h1 {
+    font-size: 6rem;
+} 
+}
+
+
 
 
 @media only screen and (max-width: 385px) {
