@@ -518,6 +518,12 @@ h3 {
 }
 
 @media only screen and (max-width: 601px) {
+  #box2 {
+    height: 450px;
+} 
+}
+
+@media only screen and (max-width: 601px) {
   .aboutme1 {
     padding-right: 80px;
 } 
@@ -528,6 +534,8 @@ h3 {
     padding-right: 80px;
 } 
 }
+
+/* 385px - MAX-WIDTH - MOBILE  */
 
 
 @media only screen and (max-width: 385px) {
