@@ -535,6 +535,18 @@ h3 {
 } 
 }
 
+@media only screen and (max-width: 601px) {
+  #box3 {
+    height: 550px;
+} 
+}
+
+@media only screen and (max-width: 601px) {
+  .languagesandtoolstext {
+    padding-right: 80px;
+} 
+}
+
 /* 385px - MAX-WIDTH - MOBILE  */
 
 
