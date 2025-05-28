@@ -499,6 +499,14 @@ nav {
 } 
 }
 
+/* Weather App Section - 1921px */
+@media only screen and (max-width: 1921px) {
+  .WeatherApp_pic  {
+    height: 470px;
+    width: 330px;
+} 
+}
+
 /* 1456px SCREEN SIZE - LAPTOP */
 @media only screen and (max-width: 1456px) {
   .loginform_pic  {
