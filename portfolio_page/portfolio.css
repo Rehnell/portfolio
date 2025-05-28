@@ -192,7 +192,7 @@ h2 {
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
-  background-color: yellow;
+  background-color: white;
 }
 
 h3 {
@@ -505,6 +505,12 @@ nav {
     width: 330px;
     margin-left: 110px;
     padding: 0;
+} 
+}
+
+@media only screen and (max-width: 1921px) {
+  #box6 {
+    height: 351px;
 } 
 }
 
