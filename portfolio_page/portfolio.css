@@ -596,6 +596,7 @@ nav {
 @media only screen and (max-width: 385px) {
   .login_signup_form_text {
     padding-left: 30px;
+    padding-right: 30px;
 } 
 }
   
