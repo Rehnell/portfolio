@@ -426,6 +426,12 @@ nav {
 } 
 }
 
+@media only screen and (max-width: 1921px) {
+  .login_signup_form_text {
+    margin-top: 54px;
+    margin-left: 110px;
+} 
+}
 
 
 /* 1456px SCREEN SIZE - LAPTOP */
