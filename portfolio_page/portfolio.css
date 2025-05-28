@@ -789,13 +789,7 @@ nav {
 } 
 }
 
-
-@media only screen and (max-width: 320px) {
-  h3 {
-    font-size: 1rem;
-} 
-}
-
+/* Weather App Section */
 @media only screen and (max-width: 320px) {
   .WeatherApp_pic {
     height: 290px;
@@ -803,6 +797,13 @@ nav {
     margin-left: 15px;
 } 
 }
+
+@media only screen and (max-width: 320px) {
+  h3 {
+    font-size: 1rem;
+} 
+}
+
 
 @media only screen and (max-width: 320px) {
   .WeatherApp_text {
