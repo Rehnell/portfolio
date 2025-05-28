@@ -797,6 +797,14 @@ nav {
 }
 
 @media only screen and (max-width: 320px) {
+  .WeatherApp_pic {
+    height: 290px;
+    width: 150px;
+    margin-left: 15px;
+} 
+}
+
+@media only screen and (max-width: 320px) {
   .WeatherApp_text {
     font-size: 0.9rem;
 } 
@@ -829,12 +837,6 @@ nav {
 } 
 }
 
-@media only screen and (max-width: 320px) {
-  .WeatherApp_pic {
-    height: 390px;
-    width: 250px;
-} 
-}
 
 @media only screen and (max-width: 320px) {
   .contact_text {
