@@ -411,6 +411,7 @@ nav {
 /* MEDIA QUERIES - Ensuring portfolio page is responsive to all devices */
 
 /* 1921px SCREEN SIZE - PC */
+/* Login Form Section */
 @media only screen and (max-width: 1921px) {
   #box1 {
     height: 500px;
@@ -454,6 +455,12 @@ nav {
 } 
 }
 
+/* Calculator section - 1921px */
+@media only screen and (max-width: 1921px) {
+  #box3 {
+    height: 500px;
+} 
+}
 
 /* 1456px SCREEN SIZE - LAPTOP */
 @media only screen and (max-width: 1456px) {
