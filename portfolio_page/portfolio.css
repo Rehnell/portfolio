@@ -422,13 +422,13 @@ nav {
 
 @media only screen and (max-width: 1921px) {
   h1 {
-    margin-top: 100px;
+    margin-top: 54px;
 } 
 }
 
 
 
-/* SCREEN SIZE - LAPTOP */
+/* 1456px SCREEN SIZE - LAPTOP */
 
 @media only screen and (max-width: 1456px) {
   .loginform_pic  {
