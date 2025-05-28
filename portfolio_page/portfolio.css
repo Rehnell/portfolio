@@ -132,7 +132,7 @@ h1 {
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
-  background-color: pink;
+  background-color: white;
 }
 
 h2 {
