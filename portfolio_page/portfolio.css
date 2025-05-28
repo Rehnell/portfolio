@@ -504,6 +504,8 @@ nav {
   .WeatherApp_pic  {
     height: 470px;
     width: 330px;
+    margin-left: 110px;
+    padding: 0;
 } 
 }
 
