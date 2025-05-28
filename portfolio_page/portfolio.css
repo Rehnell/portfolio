@@ -465,6 +465,12 @@ nav {
 } 
 }
 
+@media only screen and (max-width: 1921px) {
+  .calculator_pic  {
+    margin-left: 110px;
+} 
+}
+
 /* 1456px SCREEN SIZE - LAPTOP */
 @media only screen and (max-width: 1456px) {
   .loginform_pic  {
