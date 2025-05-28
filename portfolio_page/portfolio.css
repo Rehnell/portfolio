@@ -481,7 +481,6 @@ nav {
 
 @media only screen and (max-width: 1921px) {
   .github_calculator {
-    margin-left: 110px;
     margin-top: 20px;
     padding: 0;
 } 
@@ -489,7 +488,6 @@ nav {
 
 @media only screen and (max-width: 1921px) {
   .calculator_browser {
-    margin-left: 110px;
     margin-top: 20px;
     padding: 0;
 } 
