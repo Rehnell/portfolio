@@ -508,6 +508,28 @@ nav {
 } 
 }
 
+@media only screen and (max-width: 1921px) {
+  .WeatherApp_text {
+    margin-left: 110px;
+    margin-top: 20px;
+    padding: 0;
+} 
+}
+
+@media only screen and (max-width: 1921px) {
+  .WeatherApp_calculator {
+    margin-top: 20px;
+    padding: 0;
+} 
+}
+
+@media only screen and (max-width: 1921px) {
+  .WeatherApp_browser {
+    margin-top: 20px;
+    padding: 0;
+} 
+}
+
 /* 1456px SCREEN SIZE - LAPTOP */
 @media only screen and (max-width: 1456px) {
   .loginform_pic  {
