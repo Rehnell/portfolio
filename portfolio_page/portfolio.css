@@ -114,7 +114,7 @@ h1 {
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
-  background-color: blue;
+  background-color: white;
 }
 
 .calculator_pic {
@@ -460,7 +460,7 @@ nav {
 /* Calculator section - 1921px */
 @media only screen and (max-width: 1921px) {
   #box3 {
-    height: 350px;
+    height: 351px;
 } 
 }
 
