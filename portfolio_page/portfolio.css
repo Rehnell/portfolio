@@ -66,6 +66,7 @@ body {
   height: 500px;
   box-sizing: border-box;
   margin-top: 0; /* Remove any unwanted space */
+  padding: 20px;
   background-color: white;
 }
 
